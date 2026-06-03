@@ -1,0 +1,1625 @@
+{
+  "created_utc": "2026-06-03T17:37:24.092046+00:00",
+  "yfinance_version": "1.3.0",
+  "pandas_version": "3.0.3",
+  "numpy_version": "2.4.5",
+  "auto_adjust": true,
+  "note": "Adjusted-close snapshot. Re-downloading later will differ because Yahoo back-adjusts for splits/dividends. Use this cache for all reproducible runs.",
+  "files": {
+    "AAPL__2010-01-01__2024-01-01.csv": {
+      "ticker": "AAPL",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "0c047325f86c4b5757b0eb7b856ebb72faf1d4996aea121c10f694577ebd6cb7"
+    },
+    "AAPL__2005-01-01__2024-01-01.csv": {
+      "ticker": "AAPL",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "fbd3e85fe1134942d80cb52217b886ac25c2c65256b64aef91d3bdc131150777"
+    },
+    "AAPL__2018-01-01__2024-01-01.csv": {
+      "ticker": "AAPL",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "54d8103fb8e6aaf7adda76e2043375ad7b8a61838b6bada425bcb9b9edf9d1ec"
+    },
+    "MSFT__2010-01-01__2024-01-01.csv": {
+      "ticker": "MSFT",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "59e02c1b5de1a4d2ce43d79056cd7d1b28b89fdce774f79e100c8cd04d9291e1"
+    },
+    "MSFT__2005-01-01__2024-01-01.csv": {
+      "ticker": "MSFT",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "8625c5e8afaffc5aa9cd7e9cc5c83ed77598344252d9a97eebf1b0fbeeea636c"
+    },
+    "MSFT__2018-01-01__2024-01-01.csv": {
+      "ticker": "MSFT",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "a47034cc0804ed203bbfe4dc9174b3b50a7e317f81c5f45ab6480ca05648cd29"
+    },
+    "JPM__2010-01-01__2024-01-01.csv": {
+      "ticker": "JPM",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "87b02f9851808b6edb6726c4edcd17852ce6df2da97aab627aa2be4d949e1450"
+    },
+    "JPM__2005-01-01__2024-01-01.csv": {
+      "ticker": "JPM",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "9024febf8aa1573a176fce1ad0efe4341592ebe0e05d4f05560793ff3ffad0ca"
+    },
+    "JPM__2018-01-01__2024-01-01.csv": {
+      "ticker": "JPM",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "4e86a335130576a4044874eacc8ac1ac3118a9506503144a3c2c1ca9131d7600"
+    },
+    "XOM__2010-01-01__2024-01-01.csv": {
+      "ticker": "XOM",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "9d246c495cf5c5a28bf334dd8e5b4ce262761da9b97f3edeab024dbda2e2c7fd"
+    },
+    "XOM__2005-01-01__2024-01-01.csv": {
+      "ticker": "XOM",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "d956c2eb1a02ae595bcfbcdcb9df28d7b6ad786f0fe4e41b498b9bc6931d8fbd"
+    },
+    "XOM__2018-01-01__2024-01-01.csv": {
+      "ticker": "XOM",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "62bbef6e056d22532cfaf792110185c2244eca085462b6d38901a8b4c3d55cc2"
+    },
+    "WMT__2010-01-01__2024-01-01.csv": {
+      "ticker": "WMT",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "55d6f2bfd07f6c957aa2c4794c7bb17eb50e3e877e61ae3b3ad052d2470c630a"
+    },
+    "WMT__2005-01-01__2024-01-01.csv": {
+      "ticker": "WMT",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "70a9387a24e458ba5dc1689dda7425973b95f9e90a1e9d53f92d016baec6f373"
+    },
+    "WMT__2018-01-01__2024-01-01.csv": {
+      "ticker": "WMT",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "5e8dc5b1ec2b7fa237b9d87c2fa3a9e3abf0abb73ceb5679b5ac70d33e5092c8"
+    },
+    "KO__2010-01-01__2024-01-01.csv": {
+      "ticker": "KO",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "4c19d02c203cfb537c867fdb4ff7ef07a2b441edeb9c4e7a803bb0cec60d2f31"
+    },
+    "KO__2005-01-01__2024-01-01.csv": {
+      "ticker": "KO",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "99c41f40350af5762b96e8273871110ab3e03d14e2a54be475bb754ab5cdce38"
+    },
+    "KO__2018-01-01__2024-01-01.csv": {
+      "ticker": "KO",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "a7fd48742c0ff104cfdd5cedf7e9afabfdf96795cc857131e0d6106d49be6acb"
+    },
+    "IBM__2010-01-01__2024-01-01.csv": {
+      "ticker": "IBM",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "ad70733041d84a747fd821262cb03db95f04d45f4f202a171ecbb51e266705bd"
+    },
+    "IBM__2005-01-01__2024-01-01.csv": {
+      "ticker": "IBM",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "9c132080a355a9f5379a9fcc036e4f50d3e7eea96f797441f68ca09dc79a84a1"
+    },
+    "IBM__2018-01-01__2024-01-01.csv": {
+      "ticker": "IBM",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "5c2de558731443ecf38b3a72fdea6a509fcc6664dff3a77c0b6faee6de4402a9"
+    },
+    "GE__2010-01-01__2024-01-01.csv": {
+      "ticker": "GE",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "29b04f2b807ab8b3049fad569a2fc306a1634b9ffaebcf33ecfd93c5832f3f94"
+    },
+    "GE__2005-01-01__2024-01-01.csv": {
+      "ticker": "GE",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "d33e0a64605519d0a9edeb26554ab613a215d7bb31803c35acdb3e4b21671f3d"
+    },
+    "GE__2018-01-01__2024-01-01.csv": {
+      "ticker": "GE",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "b270693299989b5ec0793e64ddaca78588c995490070ea73ec353a3c441643bb"
+    },
+    "GOOGL__2010-01-01__2024-01-01.csv": {
+      "ticker": "GOOGL",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "7474c1218e339362550587a22f4d0dd1e1d12d501fd92e4d192bcd8a3fec37e7"
+    },
+    "GOOGL__2005-01-01__2024-01-01.csv": {
+      "ticker": "GOOGL",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "9547829e07531a9779052dc134c1afaf5e9296851778a04499875843dbac46b1"
+    },
+    "GOOGL__2018-01-01__2024-01-01.csv": {
+      "ticker": "GOOGL",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "c0bf389b09d925ab25fe988eb8ad4d35b53b86f77d6d78701fc87d1b747b98ad"
+    },
+    "AMZN__2010-01-01__2024-01-01.csv": {
+      "ticker": "AMZN",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "35b57b9879f1a3c494e58752947fd8da5bba78bff5d83911f75f32a9206667e1"
+    },
+    "AMZN__2005-01-01__2024-01-01.csv": {
+      "ticker": "AMZN",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "cd9d1ecfad14771c91857c25ae56076c8f3f9bfc54bd1d199df2401200e9f916"
+    },
+    "AMZN__2018-01-01__2024-01-01.csv": {
+      "ticker": "AMZN",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "2eae7fbc8ef17e2bc8374f0daa4f33b31493f235edbf4a7503f8910d15a301fb"
+    },
+    "BAC__2010-01-01__2024-01-01.csv": {
+      "ticker": "BAC",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "dfaae0058b3205d6286e4eb7a680d363f10b052b93136c911159bf6a65c122fe"
+    },
+    "BAC__2005-01-01__2024-01-01.csv": {
+      "ticker": "BAC",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "dcdcf9f2cb9166385c68f3cf2fd1cf48dc011879ccb95bfb439c232c270f34f8"
+    },
+    "BAC__2018-01-01__2024-01-01.csv": {
+      "ticker": "BAC",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "6f0b2e481faf65b8a7b2b89365a585153c99bd2fbf49ff2cc0d1c87493d92609"
+    },
+    "PG__2010-01-01__2024-01-01.csv": {
+      "ticker": "PG",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "a8dcac585595ea109682ce7b7400ccb47924973b6141cbead1dc88bd95b09bed"
+    },
+    "PG__2005-01-01__2024-01-01.csv": {
+      "ticker": "PG",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "c8ab11188798dba9f7bb07e569a4d49a28d560914c800f5cb062079f9381e16e"
+    },
+    "PG__2018-01-01__2024-01-01.csv": {
+      "ticker": "PG",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "813b844d1aed7e6e953e67cf400d46f039de5e78a9d2b075fa5c5739ba3b0233"
+    },
+    "CVX__2010-01-01__2024-01-01.csv": {
+      "ticker": "CVX",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "052fcdfbf933bedb570943fa6024849c3e7dbe34a2bdd8a797d9e1c877fb5dcf"
+    },
+    "CVX__2005-01-01__2024-01-01.csv": {
+      "ticker": "CVX",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "a079cfb0b20703acad82ee5ea1d1668ccc04a15da4b6d0a6ed214444d71c211c"
+    },
+    "CVX__2018-01-01__2024-01-01.csv": {
+      "ticker": "CVX",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "f504e6e12e1792f4c6f55514cf2ea90ca961241c0a80a51f3c8c1c5ec8e319bf"
+    },
+    "HD__2010-01-01__2024-01-01.csv": {
+      "ticker": "HD",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "ddb09a7ce8b97c709bddbcaa47c7f118b20793346a3ffae4013f27426c8dc122"
+    },
+    "HD__2005-01-01__2024-01-01.csv": {
+      "ticker": "HD",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "0a181a51bfeb6f8e18411c84dbc06be9cd41cb66744b45e832e8a440738f8436"
+    },
+    "HD__2018-01-01__2024-01-01.csv": {
+      "ticker": "HD",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "38a56d0926e12119735c75cb5334a81cd2f32b3095a05876e2b25ace9098cd69"
+    },
+    "INTC__2010-01-01__2024-01-01.csv": {
+      "ticker": "INTC",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "0c167e78b8c882885d056118227fff1a5ce60cc80eafe51592a4c43f9aa25d3e"
+    },
+    "INTC__2005-01-01__2024-01-01.csv": {
+      "ticker": "INTC",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "4e114a40a33fe4da595ab6ea01873f6840373cb3cfb671d0241aa6c127141c0c"
+    },
+    "INTC__2018-01-01__2024-01-01.csv": {
+      "ticker": "INTC",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "bdb12a9923029f1d9b363bb1ea39455e774d86abcab9dc60ff9eda8a368f2f2b"
+    },
+    "CSCO__2010-01-01__2024-01-01.csv": {
+      "ticker": "CSCO",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "1357e6754612b5553626a6a0dded1bf4d25ad62158ebdc8ba0eb198c5a7dbaff"
+    },
+    "CSCO__2005-01-01__2024-01-01.csv": {
+      "ticker": "CSCO",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "7e9d431ad779ebc2a7be790dcdb7a6434e46f6e3693d3bbd6360617782a252a3"
+    },
+    "CSCO__2018-01-01__2024-01-01.csv": {
+      "ticker": "CSCO",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "a34949f9edb862e0d55a32c1f771921b76635f19e86e26a2585dfb1151dfb48f"
+    },
+    "JNJ__2010-01-01__2024-01-01.csv": {
+      "ticker": "JNJ",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "916e529d1f64e8076c763fd123061cb2a18bca07436f2bf9f63b10b6c963bdde"
+    },
+    "JNJ__2005-01-01__2024-01-01.csv": {
+      "ticker": "JNJ",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "27b57ea3b14261129d203d9db8f0442fa87851635968ce137d06eb6890eb8957"
+    },
+    "JNJ__2018-01-01__2024-01-01.csv": {
+      "ticker": "JNJ",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "ec9a3e5d97e9d38e3ce4a858d1045535895886c6d348af1c2e993d8687401f03"
+    },
+    "VZ__2010-01-01__2024-01-01.csv": {
+      "ticker": "VZ",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "6360e7526219896af581361ed1884a04dc88979ccbb3ed8c229eb9d3913384ec"
+    },
+    "VZ__2005-01-01__2024-01-01.csv": {
+      "ticker": "VZ",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "d2d231f42db4be7e5783307166911e5fe1e4fd08153995d076dadb7c70e59b71"
+    },
+    "VZ__2018-01-01__2024-01-01.csv": {
+      "ticker": "VZ",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "b3bcb33a02c4a43c4c4f9921e81d3fd13ec56018090ed1bb1469d4fe787b1b22"
+    },
+    "NEE__2010-01-01__2024-01-01.csv": {
+      "ticker": "NEE",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "cecd76c76ee8a8a0e06918571771b2dd2e22fa5bc0f957c98104b6eaa8128770"
+    },
+    "NEE__2005-01-01__2024-01-01.csv": {
+      "ticker": "NEE",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "e3280c507911fcd3eb93b37107cb244921b7b4eb0fed9b19cdf7357fe3a5f93b"
+    },
+    "NEE__2018-01-01__2024-01-01.csv": {
+      "ticker": "NEE",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "9c9739cf9428d5dc94c2860452cd7c61c1cd7e889c3c4ab1f609d50b8738177f"
+    },
+    "CAT__2010-01-01__2024-01-01.csv": {
+      "ticker": "CAT",
+      "cap_tier": "large",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "52521b241582c454f881e33295887a2c19f3e4756ab646e22727ca8de0c2c32b"
+    },
+    "CAT__2005-01-01__2024-01-01.csv": {
+      "ticker": "CAT",
+      "cap_tier": "large",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "644a6f3dc86b217700f0042e1ef44479ce6d15580edecc339c60f9d04bf383b0"
+    },
+    "CAT__2018-01-01__2024-01-01.csv": {
+      "ticker": "CAT",
+      "cap_tier": "large",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "0ab8dc915e78834ed428697717e7c42a536bc9a285858d3be3a0cf667f8ca833"
+    },
+    "DECK__2010-01-01__2024-01-01.csv": {
+      "ticker": "DECK",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "3f163a7023dfa1638646e22ab335aba62b042775a1e554f4e75da3bb268c6f79"
+    },
+    "DECK__2005-01-01__2024-01-01.csv": {
+      "ticker": "DECK",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "9a0ed202ea88ecde0ca4ffa7b335a783a3e539557f035111b023d31919559be9"
+    },
+    "DECK__2018-01-01__2024-01-01.csv": {
+      "ticker": "DECK",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "ccd53562f70a7ac03800588e44484197ae12b0875758f59b3969bdb3d6e16a7f"
+    },
+    "SIG__2010-01-01__2024-01-01.csv": {
+      "ticker": "SIG",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "0a465930c02bd0e2b3ec3b88e7723a6b8155a50a635aac008e1db7aba162153b"
+    },
+    "SIG__2005-01-01__2024-01-01.csv": {
+      "ticker": "SIG",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "bbeecba160ed0aebb93473e9bdde2368b8a1198157402614de4b611441ce6cd2"
+    },
+    "SIG__2018-01-01__2024-01-01.csv": {
+      "ticker": "SIG",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "71477b715c819aa04ad20923b30e164049b40d8a15ffadde493ddc9dfcc8ab2d"
+    },
+    "MAT__2010-01-01__2024-01-01.csv": {
+      "ticker": "MAT",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "5a62fc1955243cdb274e283732c069bfbf772450beeef6297c1023df1241019e"
+    },
+    "MAT__2005-01-01__2024-01-01.csv": {
+      "ticker": "MAT",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "9e9d1c7c67a3dfef4c35bf6f03292b34ab88797cf840848337878a69fc43e474"
+    },
+    "MAT__2018-01-01__2024-01-01.csv": {
+      "ticker": "MAT",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "f42c7c9f4d1eaaf17cec4ddaebe803a658a2389ea38e5163439b7dbabae46f37"
+    },
+    "HOG__2010-01-01__2024-01-01.csv": {
+      "ticker": "HOG",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "70a3110b38db41e25faaa88c52eec56b052b6e8f95d138ec10e7acb13a7c92a8"
+    },
+    "HOG__2005-01-01__2024-01-01.csv": {
+      "ticker": "HOG",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "70ed37a15484e9851b771e922cd3f403ff593f1a39ba2f035679501425bb432c"
+    },
+    "HOG__2018-01-01__2024-01-01.csv": {
+      "ticker": "HOG",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "4baef5ef96e31d9206590d1b07c2a65338ca1a3eb762d1f7ff2dd3aa39d97adf"
+    },
+    "ANF__2010-01-01__2024-01-01.csv": {
+      "ticker": "ANF",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "802ad60dc1d6ea5a0b76faa63483d601c923f377ef70d596c0283734eec4f774"
+    },
+    "ANF__2005-01-01__2024-01-01.csv": {
+      "ticker": "ANF",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "dbbf5e619163bcd8dbd3e7645f08c75e0a347b469bb9013fbac179884d73281c"
+    },
+    "ANF__2018-01-01__2024-01-01.csv": {
+      "ticker": "ANF",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "39cbb78f7e6b55b470beec88cc0452e0693798d12e4214a8b8ee06b47d87c20d"
+    },
+    "RRGB__2010-01-01__2024-01-01.csv": {
+      "ticker": "RRGB",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "34576aca4beca39bdd3d56ebc0a21fb8a3f9201d192dc4657853775f91268d7f"
+    },
+    "RRGB__2005-01-01__2024-01-01.csv": {
+      "ticker": "RRGB",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "58c89456489d47839f68fc57546b0edd3b2192e3adad003fecefa6b520ca8685"
+    },
+    "RRGB__2018-01-01__2024-01-01.csv": {
+      "ticker": "RRGB",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "e48d2214546f74293394bf6db79681d10e667cab879fb083d00df7d5e26b77bd"
+    },
+    "GT__2010-01-01__2024-01-01.csv": {
+      "ticker": "GT",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "a3e506e33f088ff59174b28663b1e4367a2b08397d1cd837af888438984a3a9c"
+    },
+    "GT__2005-01-01__2024-01-01.csv": {
+      "ticker": "GT",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "0fa44ce6aef91b0de14597f1c8ec9d0acf5c28c76346bc3065174aa5e1f5a29f"
+    },
+    "GT__2018-01-01__2024-01-01.csv": {
+      "ticker": "GT",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "fbe9c0aaef6045fed06c923c2d955c88a47a3c09ab9d1bf36969ce8e4fde3ade"
+    },
+    "M__2010-01-01__2024-01-01.csv": {
+      "ticker": "M",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "9f10d04b733865652647d2145bc2623ffb5ee112a37819e0b65508aa7201a7e0"
+    },
+    "M__2005-01-01__2024-01-01.csv": {
+      "ticker": "M",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "f604b63e0c0a6fedb7a1a3005bbdc03b4aae2ab846dae673033b8f6db1912df7"
+    },
+    "M__2018-01-01__2024-01-01.csv": {
+      "ticker": "M",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "a539ba37c03ed9367c807b4573f27409948b76cbafa2da4c29fab3766a30fa3c"
+    },
+    "KSS__2010-01-01__2024-01-01.csv": {
+      "ticker": "KSS",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "195c1c17af5376201225c1eeab3cf6e399b5f4e0a6a1b549893b485766d293ad"
+    },
+    "KSS__2005-01-01__2024-01-01.csv": {
+      "ticker": "KSS",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "3d7a1c6129e1febcbb23779ab40850944f5050285855c0088e864a7ff76da40a"
+    },
+    "KSS__2018-01-01__2024-01-01.csv": {
+      "ticker": "KSS",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "72e254d0c8cf786f800545817d2eaf23a6e1c1ea8dc5ae62b6a9a8963a8aee1b"
+    },
+    "AEO__2010-01-01__2024-01-01.csv": {
+      "ticker": "AEO",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "e3b904061822cd6d30f1e35bf37aeb9d97ef7842508f22212cf03ef8e6c2feac"
+    },
+    "AEO__2005-01-01__2024-01-01.csv": {
+      "ticker": "AEO",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "60e26d3d993114b14074742d7a252598c3122d7f2f2991eb0dfc4817b59301a2"
+    },
+    "AEO__2018-01-01__2024-01-01.csv": {
+      "ticker": "AEO",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "415e6728dd546561659154b2228080ec88fbd4c8943aa037d19c401b59ffb2d2"
+    },
+    "RL__2010-01-01__2024-01-01.csv": {
+      "ticker": "RL",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "7ead2b6fc06c588c7f0a1f80fd743e07ec72ef612179b183ae2277aadc1eff15"
+    },
+    "RL__2005-01-01__2024-01-01.csv": {
+      "ticker": "RL",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "3b1990faa86150f86246adfef55270342dfd9b7fb63f1533263e20237c7cfc73"
+    },
+    "RL__2018-01-01__2024-01-01.csv": {
+      "ticker": "RL",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "a965f2ad1b90fe57962eb6d2e1c2cfb5c532c25ac42b7bd0618b91207f09f246"
+    },
+    "BBY__2010-01-01__2024-01-01.csv": {
+      "ticker": "BBY",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "f55d313453a64acd4ef30b4a40275a13fe24f18ad37f1912963f927d3c075d29"
+    },
+    "BBY__2005-01-01__2024-01-01.csv": {
+      "ticker": "BBY",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "25243a3e6c86e28b24cd513077370cce819c48f3c3be4d4d8d20ef4005769a6b"
+    },
+    "BBY__2018-01-01__2024-01-01.csv": {
+      "ticker": "BBY",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "99667b37bf5cb4730a355eea2ff2af7f0d740408cc9e39f7d365c1372eb666dd"
+    },
+    "URBN__2010-01-01__2024-01-01.csv": {
+      "ticker": "URBN",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "86043ff63e2d98de2da98394a2e604cd50efbed169ad403475c1d832d183f1f8"
+    },
+    "URBN__2005-01-01__2024-01-01.csv": {
+      "ticker": "URBN",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "955ed06c2716b9632114bf852ee4836a40eb51f11939493799bccb739c485aa5"
+    },
+    "URBN__2018-01-01__2024-01-01.csv": {
+      "ticker": "URBN",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "1e7a513068ad04cadfa1ddf412973786296d81abcb810d4f1147673bafec319f"
+    },
+    "XRAY__2010-01-01__2024-01-01.csv": {
+      "ticker": "XRAY",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "9ac8ff50bed1ac97b1e679aef53d2ce5a1ab4205e9aecede2cf924e72453d97d"
+    },
+    "XRAY__2005-01-01__2024-01-01.csv": {
+      "ticker": "XRAY",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "d88c1873adc79e7bf925a60d4da1f4e6f72a2c1c964d2d8e2cef8878ed8848fc"
+    },
+    "XRAY__2018-01-01__2024-01-01.csv": {
+      "ticker": "XRAY",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "71d4532a79514065b8bd44c4d6be0ae45a5b13d9c3913f3cb4b2ac8fa83b739f"
+    },
+    "EQT__2010-01-01__2024-01-01.csv": {
+      "ticker": "EQT",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "2561857414e627bf21404d114b50f49eb0701c46511d668c8e4de1f92de9eed0"
+    },
+    "EQT__2005-01-01__2024-01-01.csv": {
+      "ticker": "EQT",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "c88f3a39438495316aae50fda7ac4f8b2ae32ee69abce61d661bec1efd7c1119"
+    },
+    "EQT__2018-01-01__2024-01-01.csv": {
+      "ticker": "EQT",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "a24144dbf57d48fbeaedba083290dfdbf978370dfb6181f5cc00c3fb4690e5d7"
+    },
+    "SON__2010-01-01__2024-01-01.csv": {
+      "ticker": "SON",
+      "cap_tier": "mid",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "ef78f0ba8db4f55025cf920385a5a44400014d916e6cbb4b3b6807079fdcacd2"
+    },
+    "SON__2005-01-01__2024-01-01.csv": {
+      "ticker": "SON",
+      "cap_tier": "mid",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "0590a9434571aa352f9105371b80f35d99d2f677586a1972aa67aa38af2f20b6"
+    },
+    "SON__2018-01-01__2024-01-01.csv": {
+      "ticker": "SON",
+      "cap_tier": "mid",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "116c57d902f67488e2c2136c37ad3dabcaabba7e2ff59b7f574b2c1abcd7778e"
+    },
+    "BB__2010-01-01__2024-01-01.csv": {
+      "ticker": "BB",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "a181a4fc41b8de36959c51a13991295f4091f548666355671164bde1ba189c85"
+    },
+    "BB__2005-01-01__2024-01-01.csv": {
+      "ticker": "BB",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "372bd424282d20c4a753e8ad2b7efaf2f5797457c75c367fc8a7cc4b9cd3451f"
+    },
+    "BB__2018-01-01__2024-01-01.csv": {
+      "ticker": "BB",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "229df5da998764bcb187d7035c648f0bd8a8dede4031465c6907bde0e61811dd"
+    },
+    "GRMN__2010-01-01__2024-01-01.csv": {
+      "ticker": "GRMN",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "2eaea3e4d4a70eaa6770e60dc49706979329fcac9e425436452fe009c3a18f0e"
+    },
+    "GRMN__2005-01-01__2024-01-01.csv": {
+      "ticker": "GRMN",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "41450ae112f93f5cff93c5bdb497ead49b914dd21c789efb22cbcd7bc3313d82"
+    },
+    "GRMN__2018-01-01__2024-01-01.csv": {
+      "ticker": "GRMN",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "3b0ed00933cc25b48fdcc8b0cb7771e8eeeeb516e37c51157d3f91c238a97435"
+    },
+    "PLUG__2010-01-01__2024-01-01.csv": {
+      "ticker": "PLUG",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "1b7c0179c29f53311941317b055f32e0144bfbaf3ab06d6ecadf52fc1502412c"
+    },
+    "PLUG__2005-01-01__2024-01-01.csv": {
+      "ticker": "PLUG",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "92cb4bdd19611b604b6ffd4ea6c465ffc18dae2060e9cefab3251ba52a559ade"
+    },
+    "PLUG__2018-01-01__2024-01-01.csv": {
+      "ticker": "PLUG",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "4bec0d448608797f3dfa348d4d308525c306151a4fb4cb9f0a3c498106061c08"
+    },
+    "RIG__2010-01-01__2024-01-01.csv": {
+      "ticker": "RIG",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "20996bd5128e8675215c7a671d462a106ed62e775fabc52a6e68f7efc9691a42"
+    },
+    "RIG__2005-01-01__2024-01-01.csv": {
+      "ticker": "RIG",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "764962f48b52fa5a7620c9d10e802e1534b80ba9edec254947c48d415e5b5caf"
+    },
+    "RIG__2018-01-01__2024-01-01.csv": {
+      "ticker": "RIG",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "00d5616f2b675a766af29d161ac6bd9ec0098c9b98f70da3c68c24f76c295a8d"
+    },
+    "IMAX__2010-01-01__2024-01-01.csv": {
+      "ticker": "IMAX",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "3c67f49212902355aeffcfe47302281a927b94c707e0842c6d32518ad23e97c1"
+    },
+    "IMAX__2005-01-01__2024-01-01.csv": {
+      "ticker": "IMAX",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "a1ca1a524d3e255c26e8cfe46b3c0286ce4a4dda9959aa7f49657072e8da1f26"
+    },
+    "IMAX__2018-01-01__2024-01-01.csv": {
+      "ticker": "IMAX",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "085e9cf5c033954f95713403083575afc07c8606a8514f48e5e1f8c74589c3c8"
+    },
+    "NOK__2010-01-01__2024-01-01.csv": {
+      "ticker": "NOK",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "d52ad323d185b838b26ea85741db33f4e633fa1193aadf90b053b9ba7f3ab66f"
+    },
+    "NOK__2005-01-01__2024-01-01.csv": {
+      "ticker": "NOK",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "14b84c6d313d359a2b79611106c0d992ea18cf1e82fbc55a12597e34b2e9603c"
+    },
+    "NOK__2018-01-01__2024-01-01.csv": {
+      "ticker": "NOK",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "e51f33272bce3e867d44be1b94c475147aab9659585b668f2950855476306f89"
+    },
+    "SIRI__2010-01-01__2024-01-01.csv": {
+      "ticker": "SIRI",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "f8c368bab743bf4f3305365758db44602b02b97dee7e4924647cd6aa51c18cf1"
+    },
+    "SIRI__2005-01-01__2024-01-01.csv": {
+      "ticker": "SIRI",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "26609373c70d451de1381e619fb348db56761d97282dd07f5028f6fe5c8ac01c"
+    },
+    "SIRI__2018-01-01__2024-01-01.csv": {
+      "ticker": "SIRI",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "e5a7e9c660fbdf2919ca15d8c748088ff61e967af374da5710bcb77b9ac6082e"
+    },
+    "XRX__2010-01-01__2024-01-01.csv": {
+      "ticker": "XRX",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "95e04016113b19b254b8dc3a6ed7ebfacffda4a9627adb54acd5eb000d24464d"
+    },
+    "XRX__2005-01-01__2024-01-01.csv": {
+      "ticker": "XRX",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "a8b865494369c2314c38d4c0af01e5b70024e78665d3eb72028ef71f53cc85fe"
+    },
+    "XRX__2018-01-01__2024-01-01.csv": {
+      "ticker": "XRX",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "0711e01580cf18bd4fc1d394d68c629356c63196aaa98c8b0581335869656ca9"
+    },
+    "GME__2010-01-01__2024-01-01.csv": {
+      "ticker": "GME",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "8a56dafbbd177b60e6ea9fc467c65985bbe5e0d89db28182afb6c2aee0578c83"
+    },
+    "GME__2005-01-01__2024-01-01.csv": {
+      "ticker": "GME",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "f90387465ef522dcc7084e5e6ecd758fb658682a2882488e57d4ad9509a457f5"
+    },
+    "GME__2018-01-01__2024-01-01.csv": {
+      "ticker": "GME",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "a1db158df70ae65e04873e06a754dafa655ab3fc61eee5a863b023293af57bd3"
+    },
+    "DDS__2010-01-01__2024-01-01.csv": {
+      "ticker": "DDS",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "9e13f301375acb5ac5913870f7e7fc05a47399f76235b2f15b0076990716d85e"
+    },
+    "DDS__2005-01-01__2024-01-01.csv": {
+      "ticker": "DDS",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "84421a8c7eb1695c2c4c4f7d7f82c86d5fd057b2894bcdeac1ede7e473acd8ee"
+    },
+    "DDS__2018-01-01__2024-01-01.csv": {
+      "ticker": "DDS",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "6000a9df119ee08134a38c9bdde919914334ba0de1ba20771dd4881f3cb6bb5a"
+    },
+    "NTGR__2010-01-01__2024-01-01.csv": {
+      "ticker": "NTGR",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "75ebb86872b67583dfb6587c218ef70d14cb858bac0cc47ac44f092cf254a7d3"
+    },
+    "NTGR__2005-01-01__2024-01-01.csv": {
+      "ticker": "NTGR",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "d5f9dd660b7dd89b91a2711fbe96644684d7a9c603a27db06c4fe94f0e38928a"
+    },
+    "NTGR__2018-01-01__2024-01-01.csv": {
+      "ticker": "NTGR",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "8904465fe8e6e07d9b98254d947c60a86d75dd8acfc938b25a59b0155be0a7dc"
+    },
+    "HIMX__2010-01-01__2024-01-01.csv": {
+      "ticker": "HIMX",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "9e3ced4a9e2641f4ae12f327e5bd64d920cc77d0111e0330971b8b74ffd9f996"
+    },
+    "HIMX__2005-01-01__2024-01-01.csv": {
+      "ticker": "HIMX",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4468,
+      "first_date": "2006-03-31",
+      "last_date": "2023-12-29",
+      "sha256": "4cb74816e5dc1eabd21dd97d4e1a034380ac7aa4237476619dd553fa94389ff5"
+    },
+    "HIMX__2018-01-01__2024-01-01.csv": {
+      "ticker": "HIMX",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "c58352525bdbade5a9f2ce944517e635698b56b53879f1cbd2b27128750f0cc9"
+    },
+    "SCVL__2010-01-01__2024-01-01.csv": {
+      "ticker": "SCVL",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "8a9ba92b33f585417b159b09f6d9d7ba4cefe401327e2bbda48a828eb62cc84b"
+    },
+    "SCVL__2005-01-01__2024-01-01.csv": {
+      "ticker": "SCVL",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "93d8b5a2a426d16cf34fafc5483c81acdff48f5a86a55b86f78b0558d034c067"
+    },
+    "SCVL__2018-01-01__2024-01-01.csv": {
+      "ticker": "SCVL",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "06596d0d1220a2a7cd040cfb32d29a53d5b9bf7627349c5d782e3c842f0618ef"
+    },
+    "CATO__2010-01-01__2024-01-01.csv": {
+      "ticker": "CATO",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "eeae23fa0f916a75cb4a383ebf28a397a18479ec62df3031c737530379b23180"
+    },
+    "CATO__2005-01-01__2024-01-01.csv": {
+      "ticker": "CATO",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "6bca183f9337110a1d1335135a3279242e36952673ce7f5cef4409fc9ce8d60c"
+    },
+    "CATO__2018-01-01__2024-01-01.csv": {
+      "ticker": "CATO",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "d056c835e54f5615f93bfed48b0a7f574627c66612fcd52bea6a4114aeaa24b2"
+    },
+    "HCSG__2010-01-01__2024-01-01.csv": {
+      "ticker": "HCSG",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "583e9441a86865b222672fa01b167cf899ae13951f20cc6869bdb995f5218a9b"
+    },
+    "HCSG__2005-01-01__2024-01-01.csv": {
+      "ticker": "HCSG",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "0a184572b2a8e04f3fa6d65af3218f6b3b7f6ee12de118bd135b12699f69dc64"
+    },
+    "HCSG__2018-01-01__2024-01-01.csv": {
+      "ticker": "HCSG",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "8ef1a30c1aef25dcc3beb58a3fccb2db87ca8f913c32147c2fc2baab1190302e"
+    },
+    "NBTB__2010-01-01__2024-01-01.csv": {
+      "ticker": "NBTB",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "a9d47f87f81ab7c030efddab3f5ffa076d017ac8ba23bcff3fd15172a2153db4"
+    },
+    "NBTB__2005-01-01__2024-01-01.csv": {
+      "ticker": "NBTB",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "a74a614dcc263ddddfc7a8cde8ee355f63897bf5b94fde1ae2ca198582ac829e"
+    },
+    "NBTB__2018-01-01__2024-01-01.csv": {
+      "ticker": "NBTB",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "5fa07148e699937c1b92bfebf0a0f4e56e57b70bfe1ff5620406a4c11a4dc9fb"
+    },
+    "MTRN__2010-01-01__2024-01-01.csv": {
+      "ticker": "MTRN",
+      "cap_tier": "small",
+      "start": "2010-01-01",
+      "end": "2024-01-01",
+      "n_rows": 3522,
+      "first_date": "2010-01-04",
+      "last_date": "2023-12-29",
+      "sha256": "564b528bc81cd670cc0b1c46e3b9a4aa0f2bd6fb72ad4fae22af18a8ae888bf5"
+    },
+    "MTRN__2005-01-01__2024-01-01.csv": {
+      "ticker": "MTRN",
+      "cap_tier": "small",
+      "start": "2005-01-01",
+      "end": "2024-01-01",
+      "n_rows": 4781,
+      "first_date": "2005-01-03",
+      "last_date": "2023-12-29",
+      "sha256": "4d7c33070f447dd639470eafdf9d0bf96a6417c1492457866d20f804c6223712"
+    },
+    "MTRN__2018-01-01__2024-01-01.csv": {
+      "ticker": "MTRN",
+      "cap_tier": "small",
+      "start": "2018-01-01",
+      "end": "2024-01-01",
+      "n_rows": 1509,
+      "first_date": "2018-01-02",
+      "last_date": "2023-12-29",
+      "sha256": "8c8fbf1c329abad0a311936dcc0027414378b995e10e3fa1c90d17663086d9b1"
+    }
+  },
+  "n_files": 159,
+  "n_failures": 21,
+  "failures": [
+    "SKX [2010-01-01..2024-01-01]",
+    "SKX [2005-01-01..2024-01-01]",
+    "SKX [2018-01-01..2024-01-01]",
+    "GPS [2010-01-01..2024-01-01]",
+    "GPS [2005-01-01..2024-01-01]",
+    "GPS [2018-01-01..2024-01-01]",
+    "JWN [2010-01-01..2024-01-01]",
+    "JWN [2005-01-01..2024-01-01]",
+    "JWN [2018-01-01..2024-01-01]",
+    "FL [2010-01-01..2024-01-01]",
+    "FL [2005-01-01..2024-01-01]",
+    "FL [2018-01-01..2024-01-01]",
+    "BIG [2010-01-01..2024-01-01]",
+    "BIG [2005-01-01..2024-01-01]",
+    "BIG [2018-01-01..2024-01-01]",
+    "VOXX [2010-01-01..2024-01-01]",
+    "VOXX [2005-01-01..2024-01-01]",
+    "VOXX [2018-01-01..2024-01-01]",
+    "BGFV [2010-01-01..2024-01-01]",
+    "BGFV [2005-01-01..2024-01-01]",
+    "BGFV [2018-01-01..2024-01-01]"
+  ]
+}
