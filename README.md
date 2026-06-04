@@ -28,10 +28,10 @@ pip install numpy pandas yfinance hmmlearn matplotlib
 ### 1. Main pipeline (generates all CSVs)
 
 ```bash
-python experiment60stocksstatsv2.py
+python experiment53stocksstatsv2.py
 ```
 
-This fits HMMs across all 60 tickers in three cap tiers. Expect it to take a while (53–60 downloads plus 5-restart HMM fits over multiple timeframes, plus a 10,000-iteration permutation test at the end). CSVs are written to the script's own directory.
+This fits HMMs across all 53 tickers in three cap tiers. Expect it to take a while (53 downloads plus 5-restart HMM fits over multiple timeframes, plus a 10,000-iteration permutation test at the end). CSVs are written to the script's own directory.
 
 ### 2. Feature / tier summary
 
