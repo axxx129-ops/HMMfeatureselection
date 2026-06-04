@@ -1,7 +1,7 @@
 [README (1).md](https://github.com/user-attachments/files/28606762/README.1.md)
 # HMM Feature-Selection Experiments
 
-Reproduce the multi-stock HMM regime-detection study and its summary statistics.
+Reproduce the HMM regime-detection study and its summary statistics.
 
 ## What's here
 
@@ -9,7 +9,7 @@ Reproduce the multi-stock HMM regime-detection study and its summary statistics.
 |---|---|---|---|
 | `experiment60stocksstatsv2.py` | Main pipeline. Downloads price data, fits 2-state Gaussian HMMs, runs Exp 1 / Exp 2 stacking / order experiment + statistical tests. | yfinance (network) | `exp1_results.csv`, `exp2_stacking.csv`, `order_experiment.csv`, `summary.csv`, `bootstrap_ci.csv`, `permutation_tests.csv`, plus PNG plots for `AAPL` |
 | `get_stats_2.py` | Per-feature / per-tier μ-difference and σ-ratio summary. | `./results/exp1_results.csv` | stdout (CSV) |
-| `stacking_stats_by_tier.py` | Minority-occupancy tables (trend vs vol) by cap tier, with bootstrap CIs. | `exp2_stacking.csv` | `stacking_trend_by_tier.csv`, `stacking_vol_by_tier.csv` + stdout |
+| `stacking_stats_by_tier.py` | Minority-occupancy tables (trend vs vol) by cap tier, with bootstrap CIs. | `exp2_stacking.csv` | `stacking_trend_by_tier.csv`, `stacking_vol_by_tier.csv`|
 
 The two stats scripts depend on the CSVs produced by the main script, so run the main script first.
 
@@ -38,11 +38,6 @@ This fits HMMs across all 60 tickers in three cap tiers. Expect it to take a whi
 ```bash
 python get_stats_2.py
 ```
-
-> **Path note:** this script reads `./results/exp1_results.csv`, but the main pipeline writes `exp1_results.csv` to its own folder (no `results/` subdir). Either move the file or create the folder before running:
-> ```bash
-> mkdir -p results && cp exp1_results.csv results/
-> ```
 
 ### 3. Stacking minority-occupancy by tier
 
