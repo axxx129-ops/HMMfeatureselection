@@ -1,0 +1,10 @@
+Tier,Step,mean,95% CI,median,min,max,n
+large,1D (daily return),15.1%,"[12.5%, 18.1%]",14.7%,6.1%,30.1%,20
+large,2D (+ rolling volatility),24.3%,"[20.6%, 28.3%]",24.8%,8.7%,42.1%,20
+large,3D (+ absolute return),47.4%,"[47.1%, 47.8%]",47.5%,45.7%,49.2%,20
+mid,1D (daily return),18.5%,"[15.2%, 22.0%]",17.3%,7.4%,33.4%,16
+mid,2D (+ rolling volatility),32.7%,"[29.7%, 35.6%]",33.0%,22.0%,44.1%,16
+mid,3D (+ absolute return),48.4%,"[48.0%, 48.8%]",48.4%,46.6%,49.8%,16
+small,1D (daily return),16.3%,"[13.5%, 19.2%]",15.6%,7.5%,30.4%,17
+small,2D (+ rolling volatility),30.0%,"[27.3%, 32.7%]",29.6%,17.6%,39.2%,17
+small,3D (+ absolute return),48.5%,"[48.0%, 49.0%]",48.8%,45.7%,50.0%,17

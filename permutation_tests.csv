@@ -1,0 +1,5 @@
+comparison,description,group_a,group_b,mean_a,mean_b,observed_diff,p_value,n_a,n_b,significant_at_0.05
+vol_3D_vs_bb_3D_minority_occ,Vol-group 3D occupancy higher than bb-group 3D (collapse vs preservation),vol_3D,bb_3D,48.11415423738725,36.75294936861417,11.36120486877308,0.0,53,53,True
+vol_1D_vs_vol_3D_minority_occ,Vol-group minority occupancy rises from 1D to 3D (regime collapse),vol_3D,vol_1D,48.11415423738725,16.479724370464943,31.634429866922304,0.0,53,53,True
+bb_1D_vs_bb_3D_minority_occ,BB-group minority occupancy stable from 1D to 3D (regime preservation),bb_3D,bb_1D,36.75294936861417,36.253464922265216,0.4994844463489514,0.7822,53,53,False
+vol_sigma_ratio_vs_bb_sigma_ratio,Vol-group features have higher σ-ratio than bb-group (variance vs direction dichotomy),vol_sigma_ratio,bb_sigma_ratio,3.175059137784572,2.2391917726151593,0.9358673651694125,0.0,159,159,True

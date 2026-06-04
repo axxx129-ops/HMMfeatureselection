@@ -1,0 +1,1273 @@
+ticker,cap_tier,group,step_n_features,feature_combo,state,feature_index,feature_name,mu,sigma,occupancy_pct
+AAPL,large,vol,1,daily return,0,0,daily return,-3.864994811460909e-06,0.031216396901536835,30.079042939542834
+AAPL,large,vol,1,daily return,1,0,daily return,0.0018638285786458932,0.013070976225557107,69.92095706045717
+AAPL,large,vol,2,daily return + rolling volatility,0,0,daily return,0.00031332856640945545,0.030302464137495374,27.408673360393077
+AAPL,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.028138190055194624,0.00937423645406333,27.408673360393077
+AAPL,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0016711553677227985,0.014937173661373284,72.59132663960692
+AAPL,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.013997496070518258,0.004124000493581336,72.59132663960692
+AAPL,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.013825587442226513,0.014641250970033317,47.019867549668874
+AAPL,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.01815457307237689,0.009107819792653526,47.019867549668874
+AAPL,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.013825587455835201,0.014641250957182769,47.019867549668874
+AAPL,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.01470796015578654,0.014683314882681563,52.980132450331126
+AAPL,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.017770440254374617,0.008475306127281392,52.980132450331126
+AAPL,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.01470796015578654,0.014683314882681563,52.980132450331126
+AAPL,large,bb,1,20-day return,0,0,20-day return,-0.05400147295192786,0.05908147903365463,42.79630943931866
+AAPL,large,bb,1,20-day return,1,0,20-day return,0.0819086931269728,0.05090629134508601,57.20369056068133
+AAPL,large,bb,2,20-day return + 60-day return,0,0,20-day return,0.001443477590097778,0.09477110497533342,49.18381831085876
+AAPL,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.045691396709405876,0.0962565682528602,49.18381831085876
+AAPL,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.047943591129137916,0.07030290849663584,50.81618168914124
+AAPL,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.19424766650225136,0.10404187570056932,50.81618168914124
+AAPL,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,0.004839978983868528,0.09634198020492968,50.10645848119234
+AAPL,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.03986686119306291,0.10062610512668264,50.10645848119234
+AAPL,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,0.03836790092558474,0.14811816089104127,50.10645848119234
+AAPL,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.04572476357159795,0.06914651994177272,49.893541518807666
+AAPL,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.19458859509493454,0.10625576841990007,49.893541518807666
+AAPL,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.21894814076212002,0.208921424723929,49.893541518807666
+MRK,large,vol,1,daily return,0,0,daily return,-0.0003640832264832596,0.03397351399310217,8.096560563982056
+MRK,large,vol,1,daily return,1,0,daily return,0.0006556976561689135,0.010486164350627963,91.90343943601795
+MRK,large,vol,2,daily return + rolling volatility,0,0,daily return,-0.0003717148401487845,0.028101573783397896,15.445417645802179
+MRK,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.025110167908339382,0.010573985594809161,15.445417645802179
+MRK,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0007026212930917214,0.011524048765253408,84.55458235419782
+MRK,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.010938944775984635,0.0034539241842109604,84.55458235419782
+MRK,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.010263962742412392,0.011679601562494472,47.87438581499679
+MRK,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.013180296709288249,0.0074649607660023124,47.87438581499679
+MRK,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.010318681162598311,0.011631287241784196,47.87438581499679
+MRK,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.01027019951787925,0.011395052615097621,52.1256141850032
+MRK,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.01323123755879501,0.007360645044685613,52.1256141850032
+MRK,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.010289144580954476,0.0113779491135312,52.1256141850032
+MRK,large,bb,1,20-day return,0,0,20-day return,-0.026855881999680527,0.036752248438858326,53.58410220014195
+MRK,large,bb,1,20-day return,1,0,20-day return,0.05614850023480544,0.03370337881526926,46.41589779985806
+MRK,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.016232972657894973,0.0522179069581462,45.63520227111427
+MRK,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.0279807750455607,0.047484370283514966,45.63520227111427
+MRK,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.037628989789610476,0.04296312077867286,54.36479772888574
+MRK,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.0948113503057645,0.05818814834101461,54.36479772888574
+MRK,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.005645278640937554,0.05322485814301519,56.56493967352733
+MRK,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,0.004125231750340209,0.06614182350632568,56.56493967352733
+MRK,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.004836734254778672,0.05820459565497511,56.56493967352733
+MRK,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.037404446339259254,0.04576363611562539,43.43506032647267
+MRK,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.0839282726909972,0.07693303812571844,43.43506032647267
+MRK,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.15687160591935145,0.06479002319262085,43.43506032647267
+MSFT,large,vol,1,daily return,0,0,daily return,-0.00013251797383597325,0.03234716151587178,14.740440076906644
+MSFT,large,vol,1,daily return,1,0,daily return,0.0010204793453395431,0.01154010729824762,85.25955992309335
+MSFT,large,vol,2,daily return + rolling volatility,0,0,daily return,7.015647395169812e-05,0.02688153729754042,27.1736808374279
+MSFT,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.024508046733312836,0.009865242554162188,27.1736808374279
+MSFT,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0010799379264461518,0.012193279758886632,72.82631916257209
+MSFT,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.011485170317360661,0.0035944036006320267,72.82631916257209
+MSFT,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.011637233241657477,0.01284113269375198,47.21213415936766
+MSFT,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.015490188547692556,0.008898005997729354,47.21213415936766
+MSFT,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.011690318248243034,0.01279282398980302,47.21213415936766
+MSFT,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.01184162087304351,0.013257448240098389,52.78786584063234
+MSFT,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.014744395155067888,0.007883745139707328,52.78786584063234
+MSFT,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.011856474831880098,0.013244165632488192,52.78786584063234
+MSFT,large,bb,1,20-day return,0,0,20-day return,-0.03266572002171689,0.04682495039167515,45.493257629524486
+MSFT,large,bb,1,20-day return,1,0,20-day return,0.06692776130906883,0.041482442279526924,54.506742370475514
+MSFT,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.013032053325845916,0.07008175726217741,43.50603264726757
+MSFT,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.0307880770670807,0.06484669082516095,43.50603264726757
+MSFT,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.04982243765898748,0.047487153658045844,56.49396735273243
+MSFT,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.14196465431773808,0.06360030132614687,56.49396735273243
+MSFT,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.003589241344371607,0.08051411055030717,35.27324343506032
+MSFT,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.036191431260503025,0.07465828499728529,35.27324343506032
+MSFT,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.029138363097806635,0.09666031364463123,35.27324343506032
+MSFT,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.03667066329635122,0.05161890797346803,64.72675656493966
+MSFT,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.12293197885758353,0.07562136742535094,64.72675656493966
+MSFT,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.1879155642892987,0.08816584240535413,64.72675656493966
+JPM,large,vol,1,daily return,0,0,daily return,0.000525108110056081,0.049616930640020276,16.449476607562485
+JPM,large,vol,1,daily return,1,0,daily return,0.0007495427089089404,0.012706116369019757,83.55052339243751
+JPM,large,vol,2,daily return + rolling volatility,0,0,daily return,0.0006165340363663525,0.042801057187492296,23.499252296517838
+JPM,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.036446298154348494,0.020944261193349082,23.499252296517838
+JPM,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0007400484362429335,0.012840282012536366,76.50074770348216
+JPM,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.012121307267911082,0.0039899040070945635,76.50074770348216
+JPM,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.013887764351691279,0.017514865705486233,48.38709677419355
+JPM,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.01814544234759416,0.015003661592524635,48.38709677419355
+JPM,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.013944133663049918,0.01747002163010461,48.38709677419355
+JPM,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.014329960868389821,0.02006331090101999,51.61290322580645
+JPM,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.01750833899463322,0.01472830995290182,51.61290322580645
+JPM,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.014343723110826281,0.02005347426558598,51.61290322580645
+JPM,large,bb,1,20-day return,0,0,20-day return,0.0037659031328394865,0.11164130708255045,44.78353442157559
+JPM,large,bb,1,20-day return,1,0,20-day return,0.016949589724273177,0.030215459643895836,55.21646557842441
+JPM,large,bb,2,20-day return + 60-day return,0,0,20-day return,0.00989261004437751,0.05545308243231843,55.784244144783536
+JPM,large,bb,2,20-day return + 60-day return,0,1,60-day return,0.09532521551829301,0.09577880841219216,55.784244144783536
+JPM,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.012428836087919004,0.1002572489609709,44.215755855216464
+JPM,large,bb,2,20-day return + 60-day return,1,1,60-day return,-0.054123516971982595,0.1251913153670972,44.215755855216464
+JPM,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.04048078945703205,0.11317032079844895,17.246273953158266
+JPM,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.13365522948776498,0.14247914345142057,17.246273953158266
+JPM,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.2219727414414017,0.06477425356888171,17.246273953158266
+JPM,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.021743941042562758,0.06406245700488448,82.75372604684173
+JPM,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.06329053573110817,0.10143590855442085,82.75372604684173
+JPM,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.10454143875563138,0.13960610260019038,82.75372604684173
+XOM,large,vol,1,daily return,0,0,daily return,2.7662016189886333e-05,0.030861765109906326,18.521683400982695
+XOM,large,vol,1,daily return,1,0,daily return,0.0004965950473603063,0.011192232462834947,81.4783165990173
+XOM,large,vol,2,daily return + rolling volatility,0,0,daily return,0.00024151749666219473,0.026099640787472827,30.356761375774404
+XOM,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.02306669096992887,0.011053666756879448,30.356761375774404
+XOM,large,vol,2,daily return + rolling volatility,1,0,daily return,0.00047064061551345827,0.011199851841466229,69.64323862422559
+XOM,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.010449843963059372,0.0034588060858106993,69.64323862422559
+XOM,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.01152195904015275,0.012510028758367799,48.216193121127965
+XOM,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.014319999584316217,0.009350744549896133,48.216193121127965
+XOM,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.011581067232417695,0.012455329839725972,48.216193121127965
+XOM,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.011434710407834243,0.012867045677174645,51.78380687887204
+XOM,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.014181782177889901,0.008396088907492808,51.78380687887204
+XOM,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.011451534151077565,0.012852075013640238,51.78380687887204
+XOM,large,bb,1,20-day return,0,0,20-day return,-0.04919559292055955,0.06759597259926314,54.43577004968062
+XOM,large,bb,1,20-day return,1,0,20-day return,0.08495563727224478,0.06381994381842059,45.56422995031937
+XOM,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.00019544253707656637,0.05680326605871819,59.26188786373314
+XOM,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.0010620518108644045,0.06927740941015001,59.26188786373314
+XOM,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.030220320183492383,0.1292918403481201,40.73811213626686
+XOM,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.09976194855155664,0.23562248530306448,40.73811213626686
+XOM,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.00622834772905077,0.061028009414077766,60.3264726756565
+XOM,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,0.0010426059085522138,0.08730746888963653,60.3264726756565
+XOM,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,0.002373891316734519,0.07427186192695642,60.3264726756565
+XOM,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.038884408839743465,0.12313773038445505,39.6735273243435
+XOM,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.09553974123237856,0.2268958048909384,39.6735273243435
+XOM,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.16089021414255508,0.3224098244736128,39.6735273243435
+WMT,large,vol,1,daily return,0,0,daily return,-0.00016634027767654109,0.029001961011681354,8.05383465071566
+WMT,large,vol,1,daily return,1,0,daily return,0.000498812556679957,0.008961827968076354,91.94616534928434
+WMT,large,vol,2,daily return + rolling volatility,0,0,daily return,0.00019769817542098539,0.022078474174463295,18.350779747917112
+WMT,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.020095576013359585,0.008071645760236399,18.350779747917112
+WMT,large,vol,2,daily return + rolling volatility,1,0,daily return,0.00047470050492438913,0.00965875664247611,81.64922025208288
+WMT,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.009039208931931664,0.002931680858246256,81.64922025208288
+WMT,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.008612083885152133,0.009697273245931105,47.25486007263405
+WMT,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.011244589970091472,0.006318782914642244,47.25486007263405
+WMT,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.00861208391833018,0.0096972732164659,47.25486007263405
+WMT,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.008516246204692685,0.009769221431867654,52.74513992736595
+WMT,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.011030428870048433,0.006029526421756156,52.74513992736595
+WMT,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.008516246204692685,0.009769221431867654,52.74513992736595
+WMT,large,bb,1,20-day return,0,0,20-day return,-0.02183823966535986,0.04008144406215719,56.21007806955287
+WMT,large,bb,1,20-day return,1,0,20-day return,0.0543641914959131,0.03181245707378677,43.78992193044712
+WMT,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.014783989801765506,0.06043014803899309,32.71823988644429
+WMT,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.0454663316252517,0.05255743009598098,32.71823988644429
+WMT,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.024370311423115326,0.04269951993852971,67.2817601135557
+WMT,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.07227389504908979,0.04204662066277356,67.2817601135557
+WMT,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,0.0006590672850878068,0.0613049287939676,44.499645138396026
+WMT,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.014945742981301424,0.07064533821036705,44.499645138396026
+WMT,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.025872022611261782,0.06559048547731233,44.499645138396026
+WMT,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.019824727303510637,0.04269058275206657,55.500354861603974
+WMT,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.07137872785404674,0.044956797062694814,55.500354861603974
+WMT,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.11311740852369548,0.05379003634059567,55.500354861603974
+KO,large,vol,1,daily return,0,0,daily return,-0.0012939114294694823,0.025811266726327817,9.35697500534074
+KO,large,vol,1,daily return,1,0,daily return,0.000633414144389686,0.008064259872352786,90.64302499465926
+KO,large,vol,2,daily return + rolling volatility,0,0,daily return,-0.00041212266191078937,0.021779095566974577,16.385387737662892
+KO,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.018813439165300195,0.009628475115160646,16.385387737662892
+KO,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0005570607301878169,0.008515966576836679,83.6146122623371
+KO,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.008029029164746671,0.0027923790750333387,83.6146122623371
+KO,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.00805453912216134,0.009188120240213845,46.16534928434095
+KO,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.009997736987070509,0.006613476561065417,46.16534928434095
+KO,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.008120610955586598,0.009129777200296937,46.16534928434095
+KO,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.007482214069294362,0.008714131896929113,53.83465071565905
+KO,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.009686195893130033,0.005777820194547425,53.83465071565905
+KO,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.007506153745822849,0.008693519312677315,53.83465071565905
+KO,large,bb,1,20-day return,0,0,20-day return,-0.03851147063624756,0.05253372576769338,36.834634492547906
+KO,large,bb,1,20-day return,1,0,20-day return,0.03651966028580679,0.02645800219694554,63.1653655074521
+KO,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.0029892754735292705,0.06752875842712958,39.957416607523065
+KO,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.046440396708798404,0.063689529717551,39.957416607523065
+KO,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.016359912221359088,0.0383316826231457,60.042583392476935
+KO,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.06707827129286154,0.04228386496871121,60.042583392476935
+KO,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.013355180477735337,0.08222573236051033,21.57558552164656
+KO,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.04289723660774161,0.09855770614634249,21.57558552164656
+KO,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.08671254394552691,0.06643012515655804,21.57558552164656
+KO,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.01513612610758247,0.037951117181337556,78.42441447835344
+KO,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.041288002608984554,0.05497381180851984,78.42441447835344
+KO,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.07150451309587012,0.058676908481822554,78.42441447835344
+IBM,large,vol,1,daily return,0,0,daily return,-0.0009169478052412373,0.027701261606499137,14.612262337107456
+IBM,large,vol,1,daily return,1,0,daily return,0.0006810419538992966,0.009482129488000274,85.38773766289255
+IBM,large,vol,2,daily return + rolling volatility,0,0,daily return,4.062724104444664e-07,0.02259325314723405,26.276436658833585
+IBM,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.020333021610351824,0.008013074119617342,26.276436658833585
+IBM,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0005389255858098816,0.010159790653033934,73.72356334116643
+IBM,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.009666050122892848,0.003078529340008728,73.72356334116643
+IBM,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.009722702147012851,0.011210079284151043,48.066652424695576
+IBM,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.012453412577000958,0.0067872713136220945,48.066652424695576
+IBM,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.00972270216811316,0.011210079265850367,48.066652424695576
+IBM,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.00976267641575384,0.010351019248454052,51.933347575304424
+IBM,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.012510591714701234,0.006784064564515842,51.933347575304424
+IBM,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.00976267641575384,0.010351019248454052,51.933347575304424
+IBM,large,bb,1,20-day return,0,0,20-day return,-0.05458425139883014,0.05647317626778518,38.963804116394606
+IBM,large,bb,1,20-day return,1,0,20-day return,0.050526068962313465,0.047364136334875614,61.036195883605394
+IBM,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.014402169281940509,0.08934869329191536,38.75088715400994
+IBM,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.07422232083600361,0.0670834250468841,38.75088715400994
+IBM,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.023885437023944786,0.05419968078166244,61.24911284599006
+IBM,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.07876623371961901,0.06951078513652105,61.24911284599006
+IBM,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.0036206230989403727,0.09622864546403175,39.88644428672818
+IBM,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.047508514051976404,0.08888283739133322,39.88644428672818
+IBM,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.07336807753125417,0.06512413266898329,39.88644428672818
+IBM,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.017126660584230468,0.04966752499956169,60.11355571327183
+IBM,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.06249260913210065,0.08391536813056982,60.11355571327183
+IBM,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.09125802721562287,0.07863854508368971,60.11355571327183
+GE,large,vol,1,daily return,0,0,daily return,7.98612174651866e-05,0.03491009143510821,28.946806237983335
+GE,large,vol,1,daily return,1,0,daily return,0.0002624578732015219,0.0111233417042644,71.05319376201666
+GE,large,vol,2,daily return + rolling volatility,0,0,daily return,0.00014703773565352706,0.030891651872787494,38.0260628070925
+GE,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.027324731259149134,0.012185342825548673,38.0260628070925
+GE,large,vol,2,daily return + rolling volatility,1,0,daily return,0.000246832937788063,0.0114600701179727,61.9739371929075
+GE,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.010736108586347142,0.0038402571713420553,61.9739371929075
+GE,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.013550136071783958,0.015857423682158183,49.17752616962188
+GE,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.017192937788597696,0.011657149613101549,49.17752616962188
+GE,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.013598420614993606,0.015816037119868204,49.17752616962188
+GE,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.01355481704303502,0.01657700682395122,50.82247383037812
+GE,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.017005250142088087,0.011243860819458771,50.82247383037812
+GE,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.013567005768673533,0.01656703276945685,50.82247383037812
+GE,large,bb,1,20-day return,0,0,20-day return,-0.021604707598300906,0.0957950568885627,85.30872959545776
+GE,large,bb,1,20-day return,1,0,20-day return,0.21796778447116671,0.07401594137391616,14.691270404542228
+GE,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.03643040481497166,0.1004951089714307,61.46202980837473
+GE,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.03883650231730044,0.12183376173275348,61.46202980837473
+GE,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.09201909809367229,0.12146854733677478,38.53797019162526
+GE,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.16768358844066017,0.295677340201924,38.53797019162526
+GE,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.026871366955485854,0.1240044966991243,55.21646557842441
+GE,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.10190893009873112,0.15147153071502095,55.21646557842441
+GE,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.11724348953619952,0.15182864930115944,55.21646557842441
+GE,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.06353436541266003,0.10911458856835135,44.78353442157559
+GE,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.21828555950979558,0.1846764676699008,44.78353442157559
+GE,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.2921151249626179,0.321727619374815,44.78353442157559
+GOOGL,large,vol,1,daily return,0,0,daily return,-0.000503140254923614,0.03445519213515765,16.257209997863704
+GOOGL,large,vol,1,daily return,1,0,daily return,0.0011618845438342578,0.012517300910918664,83.74279000213629
+GOOGL,large,vol,2,daily return + rolling volatility,0,0,daily return,4.096631463949134e-05,0.027386661118821855,33.7107455671865
+GOOGL,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.02533102802434003,0.008523891880140256,33.7107455671865
+GOOGL,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0012230724077907653,0.012985106405257945,66.28925443281351
+GOOGL,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.012294324536403884,0.003582495203521185,66.28925443281351
+GOOGL,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.012704839095632948,0.013640362639640429,47.29758598590045
+GOOGL,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.016804614145699746,0.00864743297219275,47.29758598590045
+GOOGL,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.012754076506654005,0.0135943356531034,47.29758598590045
+GOOGL,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.012798984563624346,0.014520132146133694,52.70241401409955
+GOOGL,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.016429927181567456,0.008133643462494261,52.70241401409955
+GOOGL,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.0128161596506618,0.014504974843474489,52.70241401409955
+GOOGL,large,bb,1,20-day return,0,0,20-day return,-0.04877578096423141,0.054665978790239,41.30589070262597
+GOOGL,large,bb,1,20-day return,1,0,20-day return,0.06408639072437551,0.047011222132342136,58.69410929737402
+GOOGL,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.023853558939857203,0.08629778913697236,36.90560681334279
+GOOGL,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.08606854720689236,0.06713160411236081,36.90560681334279
+GOOGL,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.03932541377159673,0.05612325919029021,63.09439318665721
+GOOGL,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.12500692637501662,0.07330582876213418,63.09439318665721
+GOOGL,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.013039028526088688,0.0885120441617113,37.47338537970192
+GOOGL,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.07476562314486913,0.08246975150665069,37.47338537970192
+GOOGL,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.09166853739456463,0.08033170792616409,37.47338537970192
+GOOGL,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.03368780062245554,0.059359822409532775,62.52661462029808
+GOOGL,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.12108063080272356,0.0785929520858683,62.52661462029808
+GOOGL,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.18173236927363604,0.11405200076309663,62.52661462029808
+AMZN,large,vol,1,daily return,0,0,daily return,0.0011077558457587063,0.015382652060643296,85.30228583635974
+AMZN,large,vol,1,daily return,1,0,daily return,0.0018268015502171339,0.046140165096613714,14.69771416364025
+AMZN,large,vol,2,daily return + rolling volatility,0,0,daily return,0.0011631153652094642,0.015279003393199328,57.87224951933347
+AMZN,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.014243914224204698,0.00414288368505021,57.87224951933347
+AMZN,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0013511266393972986,0.03289391987583817,42.12775048066653
+AMZN,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.030452044498453606,0.010667449878731116,42.12775048066653
+AMZN,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.015488726249670714,0.0166177796785663,47.87438581499679
+AMZN,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.02121044816421723,0.01108536507874379,47.87438581499679
+AMZN,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.01553073397706809,0.016578526605707532,47.87438581499679
+AMZN,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.016553076190652414,0.019696253524236235,52.1256141850032
+AMZN,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.020936311857032996,0.010996505870206012,52.1256141850032
+AMZN,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.016563909692162742,0.019687143773905073,52.1256141850032
+AMZN,large,bb,1,20-day return,0,0,20-day return,-0.07567768579612569,0.06453072510298725,36.337828246983676
+AMZN,large,bb,1,20-day return,1,0,20-day return,0.06621163409986097,0.06141880791061753,63.66217175301633
+AMZN,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.04829744202075757,0.07498718048264613,50.60326472675657
+AMZN,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.06739222900499987,0.11860717166386518,50.60326472675657
+AMZN,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.07601145652904477,0.06230927628309011,49.396735273243436
+AMZN,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.1463374627411009,0.11275325905732164,49.396735273243436
+AMZN,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.028532986422568563,0.1007748267517222,44.92547906316536
+AMZN,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.06176776226293889,0.13879223659229892,44.92547906316536
+AMZN,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.10580320305107675,0.1102828540360391,44.92547906316536
+AMZN,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.0488870447819154,0.067666043347591,55.07452093683464
+AMZN,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.12368210666655188,0.11726748066839207,55.07452093683464
+AMZN,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.21300109750333307,0.16123192102231085,55.07452093683464
+PG,large,vol,1,daily return,0,0,daily return,-0.000754745599924192,0.02427876530057647,10.254219183935056
+PG,large,vol,1,daily return,1,0,daily return,0.000573110659732446,0.007772344489457963,89.74578081606495
+PG,large,vol,2,daily return + rolling volatility,0,0,daily return,-0.00028088626271002533,0.022199202066592007,13.351847895748772
+PG,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.019145457762063334,0.010024845668192936,13.351847895748772
+PG,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0004880555031557008,0.008943196280964823,86.64815210425122
+PG,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.008377406738865202,0.0028623278823105133,86.64815210425122
+PG,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.007853721054617421,0.008969652122632012,46.50715659047212
+PG,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.00991411820418042,0.0061064360108774186,46.50715659047212
+PG,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.007928258114008168,0.008903837199906653,46.50715659047212
+PG,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.00750646546140393,0.008652814484298072,53.49284340952788
+PG,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.00977643843799464,0.005638365134435827,53.49284340952788
+PG,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.007528781321749447,0.008633404544686023,53.49284340952788
+PG,large,bb,1,20-day return,0,0,20-day return,-0.02615877306414478,0.03447645816587906,47.977288857345634
+PG,large,bb,1,20-day return,1,0,20-day return,0.047803594337144976,0.031736491477222996,52.022711142654366
+PG,large,bb,2,20-day return + 60-day return,0,0,20-day return,0.0007966665100631168,0.056304485203414016,44.499645138396026
+PG,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.03038617855654363,0.044262067849809864,44.499645138396026
+PG,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.023163921562874067,0.04075196821836489,55.500354861603974
+PG,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.09282054476675654,0.0472115607202061,55.500354861603974
+PG,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.002477467786606447,0.060716650964420166,34.84740951029099
+PG,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.020362946274524275,0.06447463860462666,34.84740951029099
+PG,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.0466027712571488,0.05673328707734865,34.84740951029099
+PG,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.021757365029089676,0.03974526911019252,65.15259048970901
+PG,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.06987591500429888,0.06257080893868668,65.15259048970901
+PG,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.12038500495188244,0.06444264108651464,65.15259048970901
+CVX,large,vol,1,daily return,0,0,daily return,-0.0007355541781688506,0.03698117478336045,12.839136936552018
+CVX,large,vol,1,daily return,1,0,daily return,0.0007580349421030507,0.012414604811033608,87.16086306344798
+CVX,large,vol,2,daily return + rolling volatility,0,0,daily return,0.0003342478117195158,0.030415171555929283,23.81969664601581
+CVX,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.02588379906329365,0.014768662036591648,23.81969664601581
+CVX,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0005984357544671469,0.012174743502955833,76.18030335398419
+CVX,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.011438714051215387,0.0034935196676444376,76.18030335398419
+CVX,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.012263846039450561,0.01400523931347015,47.16940824610126
+CVX,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.015179048767628779,0.010615339259114932,47.16940824610126
+CVX,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.012337099845340198,0.013940753756989756,47.16940824610126
+CVX,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.011826768488543925,0.013683389829670843,52.83059175389874
+CVX,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.014708009443336589,0.009437060493729396,52.83059175389874
+CVX,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.011841624118595555,0.013670535773928212,52.83059175389874
+CVX,large,bb,1,20-day return,0,0,20-day return,0.0018986203415547896,0.040993667844453074,73.45635202271114
+CVX,large,bb,1,20-day return,1,0,20-day return,0.03105905913193262,0.1616710315278889,26.54364797728886
+CVX,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.01152751752242511,0.053140342171781325,55.784244144783536
+CVX,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.021574481952241563,0.05917429760307671,55.784244144783536
+CVX,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.03659146953782295,0.11992409093453747,44.215755855216464
+CVX,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.0942091659169639,0.18355719898974482,44.215755855216464
+CVX,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,0.005972966102202392,0.10230606257969868,56.56493967352733
+CVX,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.03686939367466681,0.10242816177725193,56.56493967352733
+CVX,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.04880970862589035,0.09656954349270773,56.56493967352733
+CVX,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.014940788609105695,0.07731294999330592,43.43506032647267
+CVX,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.11679694366848486,0.13988098888096118,43.43506032647267
+CVX,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.18125777005251908,0.18956315579867283,43.43506032647267
+HD,large,vol,1,daily return,0,0,daily return,-0.0004385134692982181,0.030529103609257216,18.41486861781671
+HD,large,vol,1,daily return,1,0,daily return,0.0009821671057712118,0.010966990632380968,81.58513138218329
+HD,large,vol,2,daily return + rolling volatility,0,0,daily return,-0.00019796802895971378,0.02834505516383858,21.063875240333264
+HD,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.02521011163298281,0.011531610298745588,21.063875240333264
+HD,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0009409544308022383,0.011899395896481094,78.93612475966674
+HD,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.011127249656752653,0.0036175199147408434,78.93612475966674
+HD,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.011281038006238872,0.012411215655617385,46.91305276650289
+HD,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.014258283382567774,0.008624122190378785,46.91305276650289
+HD,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.011336266634004935,0.012360790886961659,46.91305276650289
+HD,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.01126225210883508,0.012444842044171737,53.08694723349711
+HD,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.013940762960418119,0.00827301746596092,53.08694723349711
+HD,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.011275537465484705,0.01243280623720146,53.08694723349711
+HD,large,bb,1,20-day return,0,0,20-day return,-0.03831029940765362,0.05310861286211258,52.235628105039034
+HD,large,bb,1,20-day return,1,0,20-day return,0.07102377117334199,0.048436455193834965,47.764371894960966
+HD,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.022107186238594936,0.08676004411054651,39.957416607523065
+HD,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.0746330337819906,0.06769886908384852,39.957416607523065
+HD,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.03735911571478348,0.053198120283564014,60.042583392476935
+HD,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.1107446959713222,0.07864559440717601,60.042583392476935
+HD,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.01702941530476006,0.08588287794853561,43.64797728885735
+HD,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.0675707807936437,0.07045660453976894,43.64797728885735
+HD,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.04556523110413177,0.10279179772254796,43.64797728885735
+HD,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.03668045243350074,0.05425746877646762,56.35202271114266
+HD,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.1153506135230123,0.07791064752223482,56.35202271114266
+HD,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.13707853872520487,0.11468733297644537,56.35202271114266
+INTC,large,vol,1,daily return,0,0,daily return,-0.0011088418438915308,0.035227242721729904,19.162572099978636
+INTC,large,vol,1,daily return,1,0,daily return,0.000863394666810969,0.013239390214622166,80.83742790002137
+INTC,large,vol,2,daily return + rolling volatility,0,0,daily return,0.00018563346309148873,0.028597479961140624,35.20615253151036
+INTC,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.025994810630747902,0.009902398141460175,35.20615253151036
+INTC,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0005818080662750328,0.013512694412001095,64.79384746848964
+INTC,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.012903644088024432,0.003722724138907757,64.79384746848964
+INTC,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.013956115788617404,0.014939922671444903,47.51121555223243
+INTC,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.0177192964495188,0.009422423008792471,47.51121555223243
+INTC,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.013998616525194976,0.014900107137688223,47.51121555223243
+INTC,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.013429090421466958,0.014410654225083495,52.488784447767564
+INTC,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.01715963718686706,0.008668295235168773,52.488784447767564
+INTC,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.013440620490900848,0.014399900887243241,52.488784447767564
+INTC,large,bb,1,20-day return,0,0,20-day return,-0.07582982311089904,0.06185916744930789,42.583392476933994
+INTC,large,bb,1,20-day return,1,0,20-day return,0.06473525652682707,0.06401616129479556,57.416607523066
+INTC,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.03122280639221864,0.08940150413829599,55.784244144783536
+INTC,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.09261139173562874,0.07712354315879501,55.784244144783536
+INTC,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.05046297309242257,0.07832356928820032,44.215755855216464
+INTC,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.13409110733174928,0.09502117472745547,44.215755855216464
+INTC,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.007582191052460284,0.0802639827325362,56.42299503193754
+INTC,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.06591887127334957,0.09807689229048329,56.42299503193754
+INTC,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.11305462469908623,0.10399358560859051,56.42299503193754
+INTC,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.01963881812657363,0.10732822068621728,43.577004968062454
+INTC,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.09939205970228829,0.1336889095856489,43.577004968062454
+INTC,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.16857894265400128,0.12101877249284837,43.577004968062454
+CSCO,large,vol,1,daily return,0,0,daily return,-0.0015959614149525202,0.03625853406684784,12.753685110019228
+CSCO,large,vol,1,daily return,1,0,daily return,0.0008453716810224599,0.011431756475125046,87.24631488998077
+CSCO,large,vol,2,daily return + rolling volatility,0,0,daily return,-0.00022979882845593571,0.028100554586702683,26.89596240119633
+CSCO,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.025525738459520077,0.009756711686420042,26.89596240119633
+CSCO,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0006985972944977034,0.012271802187149882,73.10403759880367
+CSCO,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.011677975955293345,0.0036804156925701707,73.10403759880367
+CSCO,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.011981684181077843,0.0140508705628897,47.447126682332836
+CSCO,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.015773275611516105,0.008966098896411484,47.447126682332836
+CSCO,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.01198168420151608,0.014050870545461277,47.447126682332836
+CSCO,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.011661109599352225,0.013335314066065331,52.55287331766717
+CSCO,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.015226991505917132,0.008278256768428808,52.55287331766717
+CSCO,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.011661109599352225,0.013335314066065331,52.55287331766717
+CSCO,large,bb,1,20-day return,0,0,20-day return,-0.06522922059566738,0.048853552334986776,34.918381831085874
+CSCO,large,bb,1,20-day return,1,0,20-day return,0.046463757415027014,0.04436673566155426,65.08161816891412
+CSCO,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.03447783929857378,0.0798480237160443,38.11213626685593
+CSCO,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.09225794012678533,0.0652767012404278,38.11213626685593
+CSCO,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.03155895612379439,0.04966971840355919,61.88786373314408
+CSCO,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.08934055160817879,0.07361218317112204,61.88786373314408
+CSCO,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.01781499476037552,0.08508071246713245,43.860894251242016
+CSCO,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.07092412974890823,0.08034393258950019,43.860894251242016
+CSCO,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.08208039695113174,0.0849989888384959,43.860894251242016
+CSCO,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.025240303535585085,0.049122001522479246,56.13910574875799
+CSCO,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.09117807692064715,0.0784933806665947,56.13910574875799
+CSCO,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.12827265551135167,0.08908882608168538,56.13910574875799
+JNJ,large,vol,1,daily return,0,0,daily return,-0.0009321354022721891,0.025767696559803946,6.067079683828243
+JNJ,large,vol,1,daily return,1,0,daily return,0.0004958870648847086,0.00785195213356174,93.93292031617176
+JNJ,large,vol,2,daily return + rolling volatility,0,0,daily return,-0.0004028643401009746,0.024590003713377308,8.737449262977997
+JNJ,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.021154450202853375,0.011147999614863631,8.737449262977997
+JNJ,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0004252366567980669,0.008702380557327563,91.26255073702201
+JNJ,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.008100338822226319,0.0028937821743652468,91.26255073702201
+JNJ,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.007220098973020051,0.008338032812385507,48.02392651142918
+JNJ,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.009297134940840099,0.005839186743914817,48.02392651142918
+JNJ,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.0072200990109518,0.008338032779539511,48.02392651142918
+JNJ,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.007348670238879086,0.008332417166363989,51.97607348857082
+JNJ,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.009210439381477217,0.005536500639424731,51.97607348857082
+JNJ,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.007348670238879086,0.008332417166363989,51.97607348857082
+JNJ,large,bb,1,20-day return,0,0,20-day return,-0.02122756123678626,0.04669981411783596,57.62952448545068
+JNJ,large,bb,1,20-day return,1,0,20-day return,0.04411930803035929,0.02197133972444848,42.37047551454933
+JNJ,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.00669059457710859,0.06228142047157256,38.679914833215044
+JNJ,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.05077265287734561,0.03927531270957159,38.679914833215044
+JNJ,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.015099652070304942,0.038025371233113156,61.320085166784956
+JNJ,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.059231852344350196,0.04561347529649625,61.320085166784956
+JNJ,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.006143072226108965,0.06166902508394591,40.17033356990773
+JNJ,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.04874525344476275,0.040082484150585435,40.17033356990773
+JNJ,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.02330583010785782,0.05336318246280455,40.17033356990773
+JNJ,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.015261968051710414,0.03797336246206745,59.82966643009227
+JNJ,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.060546101525471734,0.04529232059377277,59.82966643009227
+JNJ,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.059977235335764094,0.07212966242321452,59.82966643009227
+VZ,large,vol,1,daily return,0,0,daily return,-0.0004264200993586283,0.028163525219100868,8.267464217047639
+VZ,large,vol,1,daily return,1,0,daily return,0.0004082366717889394,0.009757890350947861,91.73253578295237
+VZ,large,vol,2,daily return + rolling volatility,0,0,daily return,-0.00036770846484984857,0.024075254657769708,14.334543900875882
+VZ,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.021496491525580433,0.009922486355013135,14.334543900875882
+VZ,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0004286207822757516,0.010272247549995691,85.66545609912411
+VZ,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.009588534222080175,0.0030030823161583202,85.66545609912411
+VZ,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.009192353645791252,0.009482331157952504,47.55394146549882
+VZ,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.011335829872493614,0.0064884641452417555,47.55394146549882
+VZ,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.009254664964165866,0.009421525680027062,47.55394146549882
+VZ,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.008744176560776177,0.00979149704426958,52.44605853450117
+VZ,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.011243402803719785,0.0060382725676243545,52.44605853450117
+VZ,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.008765464962500469,0.009772444018010239,52.44605853450117
+VZ,large,bb,1,20-day return,0,0,20-day return,-0.030910747643191665,0.03306194128489488,58.19730305180979
+VZ,large,bb,1,20-day return,1,0,20-day return,0.046442177203578766,0.034125914457070784,41.8026969481902
+VZ,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.016788437649771074,0.048479937192789514,55.07452093683464
+VZ,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.04978312318856743,0.05281387306163615,55.07452093683464
+VZ,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.024204475090278867,0.04407581471242185,44.92547906316536
+VZ,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.06443211453247537,0.04336964551288881,44.92547906316536
+VZ,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.016163343778023972,0.0482581812040406,56.35202271114266
+VZ,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.04790809155808846,0.05302300650724372,56.35202271114266
+VZ,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.04839458939105283,0.07913428274519757,56.35202271114266
+VZ,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.025129451540528334,0.04413303392525119,43.64797728885735
+VZ,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.06683456219071654,0.04253316521616465,43.64797728885735
+VZ,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.06056761924397014,0.07175245578404144,43.64797728885735
+NEE,large,vol,1,daily return,0,0,daily return,-0.000659664452567879,0.03157932461854875,13.287759025849176
+NEE,large,vol,1,daily return,1,0,daily return,0.0008257594013297177,0.010125658284753302,86.71224097415082
+NEE,large,vol,2,daily return + rolling volatility,0,0,daily return,-6.00892907497486e-05,0.027577424381813695,18.500320444349498
+NEE,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.02376968217516821,0.012366827617897164,18.500320444349498
+NEE,large,vol,2,daily return + rolling volatility,1,0,daily return,0.0007669803145443216,0.010500690910217955,81.4996795556505
+NEE,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.009915942925955544,0.003246944908732486,81.4996795556505
+NEE,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.010241795556569244,0.011443832007466223,45.6740012817774
+NEE,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.012899678198097392,0.008737211570759008,45.6740012817774
+NEE,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.010309204338689464,0.011383144255468972,45.6740012817774
+NEE,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.009614965556317983,0.011500689272481495,54.3259987182226
+NEE,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.012080276397679524,0.007473622059811753,54.3259987182226
+NEE,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.009632355180084082,0.011486128593919691,54.3259987182226
+NEE,large,bb,1,20-day return,0,0,20-day return,-0.08776768402793542,0.06354030143325297,22.64017033356991
+NEE,large,bb,1,20-day return,1,0,20-day return,0.04031847553282219,0.04585124358001029,77.35982966643009
+NEE,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.018092189179777476,0.10126483653289081,35.62810503903477
+NEE,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.08145942935876521,0.06369008935524734,35.62810503903477
+NEE,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.026041118428560692,0.04698031524572849,64.37189496096522
+NEE,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.08425140752522976,0.06267162507863205,64.37189496096522
+NEE,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.00693348041347293,0.09405940949617635,48.89992902767921
+NEE,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.03328996158130422,0.1075496106802994,48.89992902767921
+NEE,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.046218052713643105,0.09492647860271827,48.89992902767921
+NEE,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.02696047564172504,0.04187838063577677,51.1000709723208
+NEE,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.08179690106228879,0.050536881774586914,51.1000709723208
+NEE,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.13680269758758726,0.06884084091427062,51.1000709723208
+CAT,large,vol,1,daily return,0,0,daily return,-4.5495068000041156e-05,0.03353916073607764,20.23071993163854
+CAT,large,vol,1,daily return,1,0,daily return,0.000941534960802055,0.013474235809171635,79.76928006836145
+CAT,large,vol,2,daily return + rolling volatility,0,0,daily return,0.0005649689245564899,0.014970881050258813,74.30036317026276
+CAT,large,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.013968592403590645,0.00396317318301132,74.30036317026276
+CAT,large,vol,2,daily return + rolling volatility,1,0,daily return,0.001093295072236067,0.030643943572236453,25.699636829737237
+CAT,large,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.028274928375876033,0.00974620924881858,25.699636829737237
+CAT,large,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.01388849252065339,0.014743534503467331,48.08801538132877
+CAT,large,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.01760670640993599,0.008635921380646821,48.08801538132877
+CAT,large,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.013888492544403868,0.014743534481094249,48.08801538132877
+CAT,large,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.014218597138925442,0.014455952422286889,51.91198461867123
+CAT,large,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.017770115875491523,0.008763666388768432,51.91198461867123
+CAT,large,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.014218597138925442,0.014455952422286889,51.91198461867123
+CAT,large,bb,1,20-day return,0,0,20-day return,-0.06933254788320865,0.06088170489397622,39.6735273243435
+CAT,large,bb,1,20-day return,1,0,20-day return,0.07023629915710818,0.06338133189394685,60.3264726756565
+CAT,large,bb,2,20-day return + 60-day return,0,0,20-day return,-0.02804446041136363,0.08896520494605947,50.95812633073101
+CAT,large,bb,2,20-day return + 60-day return,0,1,60-day return,-0.08098134075849858,0.0707798331237379,50.95812633073101
+CAT,large,bb,2,20-day return + 60-day return,1,0,20-day return,0.05933343937626497,0.07304015220690939,49.04187366926899
+CAT,large,bb,2,20-day return + 60-day return,1,1,60-day return,0.16550514655531723,0.09479719175421647,49.04187366926899
+CAT,large,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,0.0022111816042331865,0.10046294955082852,66.43009226401703
+CAT,large,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.03503691864663425,0.10427841370266772,66.43009226401703
+CAT,large,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.044664449109158046,0.09659686488232244,66.43009226401703
+CAT,large,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.0394972222138655,0.06795110719562229,33.569907735982966
+CAT,large,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.18709153803095327,0.10769532628047851,33.569907735982966
+CAT,large,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.28101461127984,0.12473412782231104,33.569907735982966
+DECK,mid,vol,1,daily return,0,0,daily return,0.0006850037128439616,0.05158773076696998,18.15851313821833
+DECK,mid,vol,1,daily return,1,0,daily return,0.0016068082023051808,0.01842005755491184,81.84148686178168
+DECK,mid,vol,2,daily return + rolling volatility,0,0,daily return,0.0011904995934137461,0.020941678591876775,69.92095706045717
+DECK,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.01970416312129717,0.005344615244877262,69.92095706045717
+DECK,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.0018775765466849273,0.043442241694860315,30.079042939542834
+DECK,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.04071260460421578,0.012695828550714144,30.079042939542834
+DECK,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.020080543629467543,0.021669385904618123,46.57124546037171
+DECK,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.026068048772180052,0.012557134633016049,46.57124546037171
+DECK,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.0201136566870528,0.02163865366915392,46.57124546037171
+DECK,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.019997166603599095,0.021764696273022976,53.42875453962829
+DECK,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.025899840693352456,0.012772415393707314,53.42875453962829
+DECK,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.020005493152449188,0.02175704299201405,53.42875453962829
+DECK,mid,bb,1,20-day return,0,0,20-day return,-0.0317826257288916,0.07780657523252713,60.46841731724627
+DECK,mid,bb,1,20-day return,1,0,20-day return,0.13378559113497712,0.07921037069971658,39.53158268275372
+DECK,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.000462954134301716,0.15412951741041234,33.21504613200852
+DECK,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.08169018949673543,0.12865004302014416,33.21504613200852
+DECK,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.051994570683945716,0.07972655631106236,66.78495386799148
+DECK,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.1865204995974211,0.12314238660639835,66.78495386799148
+DECK,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,0.009227412346581169,0.14671381924309287,39.460610361958835
+DECK,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.044374043100131946,0.15131145587844447,39.460610361958835
+DECK,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.01923247650841465,0.20912146136611956,39.460610361958835
+DECK,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.051264811699623596,0.07914193733137069,60.539389638041165
+DECK,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.19080240024511613,0.12384339687127233,60.539389638041165
+DECK,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.28042420082109687,0.12752581188143505,60.539389638041165
+SIG,mid,vol,1,daily return,0,0,daily return,0.0005962696571775446,0.017059419912505522,72.48451185644093
+SIG,mid,vol,1,daily return,1,0,daily return,0.001618254905684139,0.0588199821013198,27.515488143559068
+SIG,mid,vol,2,daily return + rolling volatility,0,0,daily return,0.0005304581334095183,0.01713094611102231,55.86413159581286
+SIG,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.0162788487545889,0.005257864325642608,55.86413159581286
+SIG,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.0013224835215790032,0.047793645621469934,44.13586840418714
+SIG,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.04239761575349819,0.01885404282531585,44.13586840418714
+SIG,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.021401020629197697,0.02602403443249875,47.981200598162786
+SIG,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.02778940515917095,0.01864189899114616,47.981200598162786
+SIG,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.021401020660462854,0.026024034406787667,47.981200598162786
+SIG,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.02143564753110251,0.02753968461895276,52.018799401837214
+SIG,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.02795394281399616,0.018333777400258135,52.018799401837214
+SIG,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.02143564753110251,0.02753968461895276,52.018799401837214
+SIG,mid,bb,1,20-day return,0,0,20-day return,-0.057077436178238954,0.1481954508215405,68.91412349183818
+SIG,mid,bb,1,20-day return,1,0,20-day return,0.2508357001199856,0.12781081057746227,31.08587650816182
+SIG,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.040986771185015404,0.1946563236484956,56.7068843151171
+SIG,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.15135626431703364,0.21193551183216008,56.7068843151171
+SIG,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.14211413040594717,0.1574958721349882,43.29311568488289
+SIG,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.4463482208193186,0.26206704291876515,43.29311568488289
+SIG,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.017494417780835263,0.19296325224687794,66.57203690560681
+SIG,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.0956840824560542,0.23851390445329756,66.57203690560681
+SIG,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.09911480822083119,0.28815204701182834,66.57203690560681
+SIG,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.14917223944063593,0.1685582515944045,33.427963094393185
+SIG,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.5114168251945702,0.26262777569675005,33.427963094393185
+SIG,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.757060626708291,0.6277698708720771,33.427963094393185
+MAT,mid,vol,1,daily return,0,0,daily return,0.00020472675689565812,0.014275085009408014,85.28092287972655
+MAT,mid,vol,1,daily return,1,0,daily return,0.0011177557643727118,0.043300673212878615,14.719077120273447
+MAT,mid,vol,2,daily return + rolling volatility,0,0,daily return,-1.354339428368669e-05,0.015082529701762371,69.08780175176244
+MAT,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.014061250699438468,0.004433237154920796,69.08780175176244
+MAT,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.0012097597332503534,0.03327901568222405,30.912198248237555
+MAT,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.030722185611584758,0.010704487389794484,30.912198248237555
+MAT,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.01486310022847522,0.016257412672647874,48.42982268745995
+MAT,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.01940558225845376,0.010611595423412707,48.42982268745995
+MAT,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.014902671155364807,0.016221146927561245,48.42982268745995
+MAT,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.014836826195070079,0.017263167288632066,51.57017731254005
+MAT,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.01910595303578274,0.010250762689011872,51.57017731254005
+MAT,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.0148435541342453,0.017257382682253505,51.57017731254005
+MAT,mid,bb,1,20-day return,0,0,20-day return,-0.052624279306349074,0.08067781627756239,64.58481192334989
+MAT,mid,bb,1,20-day return,1,0,20-day return,0.12540073734881158,0.06124448275726774,35.415188076650104
+MAT,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.001900239643328771,0.12766172068726345,49.04187366926899
+MAT,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.1016773669500261,0.13073005399822055,49.04187366926899
+MAT,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.022518560387263256,0.09490643153854691,50.95812633073101
+MAT,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.16139764516519248,0.13186774619004565,50.95812633073101
+MAT,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.0011490002990368728,0.12637590812132704,60.82327892122073
+MAT,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.031117592798570713,0.17815465176332484,60.82327892122073
+MAT,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.09695423995458474,0.1252890148149278,60.82327892122073
+MAT,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.02798317640224916,0.08599908587214342,39.17672107877927
+MAT,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.12492016754601315,0.1552746015571002,39.17672107877927
+MAT,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.26578882469152443,0.19346631092399655,39.17672107877927
+HOG,mid,vol,1,daily return,0,0,daily return,0.00010278510613017012,0.01636020297612526,85.13138218329416
+HOG,mid,vol,1,daily return,1,0,daily return,0.0016361823066736295,0.052529856399691224,14.868617816705832
+HOG,mid,vol,2,daily return + rolling volatility,0,0,daily return,-1.4179424056831109e-06,0.017260831106756927,76.052125614185
+HOG,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.01639961576219233,0.004853682687663151,76.052125614185
+HOG,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.0015350327199240266,0.044312595201975426,23.947874385814995
+HOG,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.03932026085159483,0.017367089921464095,23.947874385814995
+HOG,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.017130075598924478,0.018800076671503303,49.13480025635548
+HOG,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.021834620428693528,0.01347717440701884,49.13480025635548
+HOG,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.017171545087833934,0.01876220701771934,49.13480025635548
+HOG,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.01724097133286305,0.021250177598719083,50.86519974364452
+HOG,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.021978082936424052,0.013811740967557072,50.86519974364452
+HOG,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.017250235089739278,0.02124265825706462,50.86519974364452
+HOG,mid,bb,1,20-day return,0,0,20-day return,-0.052873686728871765,0.0830460014654334,70.1916252661462
+HOG,mid,bb,1,20-day return,1,0,20-day return,0.13825419799337124,0.0859614238407357,29.8083747338538
+HOG,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.03282991766429296,0.09650513883871903,69.26898509581262
+HOG,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.06155430030887469,0.1162116858615093,69.26898509581262
+HOG,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.09225828587985267,0.12745365214058504,30.731014904187365
+HOG,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.16419930902811034,0.21742899344058328,30.731014904187365
+HOG,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.012821175649913924,0.1084434006886401,63.09439318665721
+HOG,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.05151999178277101,0.12650666250295123,63.09439318665721
+HOG,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.08448606667846394,0.12256904495462133,63.09439318665721
+HOG,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.04068887153150136,0.13602458782078852,36.90560681334279
+HOG,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.1163058016023114,0.2250574928699783,36.90560681334279
+HOG,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.17087158135273903,0.2630264239546539,36.90560681334279
+ANF,mid,vol,1,daily return,0,0,daily return,0.0007398168563455536,0.02207834598404761,92.60841700491348
+ANF,mid,vol,1,daily return,1,0,daily return,0.0007608759406989695,0.07338514479591508,7.3915829950865195
+ANF,mid,vol,2,daily return + rolling volatility,0,0,daily return,0.0004196792517743404,0.047602089937843206,33.92437513351848
+ANF,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.04426885146723882,0.013470144417367306,33.92437513351848
+ANF,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.0009097318095571098,0.023322606316238333,66.07562486648152
+ANF,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.022128390336821697,0.005687935487120611,66.07562486648152
+ANF,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.022559629637817557,0.02463141455237322,47.767571031830805
+ANF,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.029600407702567503,0.014014427775784415,47.767571031830805
+ANF,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.02255962965831436,0.024631414533600435,47.767571031830805
+ANF,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.022052913856783724,0.025698651318436183,52.232428968169195
+ANF,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.029752847207332695,0.013805517906364608,52.232428968169195
+ANF,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.022052913856783724,0.025698651318436183,52.232428968169195
+ANF,mid,bb,1,20-day return,0,0,20-day return,-0.11833375844025996,0.12190467193553937,40.80908445706174
+ANF,mid,bb,1,20-day return,1,0,20-day return,0.1429435067107296,0.11784377466584657,59.19091554293825
+ANF,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.035820027329982955,0.156578280134072,63.09439318665721
+ANF,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.11378644361477162,0.18252188727099367,63.09439318665721
+ANF,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.1535840003277946,0.1383218938806012,36.90560681334279
+ANF,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.4682313941273569,0.17300185880910693,36.90560681334279
+ANF,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.017519826302972084,0.1739957766058329,63.307310149041875
+ANF,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.10314864460405229,0.1987127491423383,63.307310149041875
+ANF,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.13860080377681191,0.23044852858450562,63.307310149041875
+ANF,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.1229392912657114,0.1394808310888406,36.692689850958125
+ANF,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.45251733109691833,0.19659928988027062,36.692689850958125
+ANF,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.734518933351084,0.3513483649665598,36.692689850958125
+RRGB,mid,vol,1,daily return,0,0,daily return,0.0003476486297969746,0.02014706906462979,82.48237556077761
+RRGB,mid,vol,1,daily return,1,0,daily return,0.0003906322919346726,0.07031909407283253,17.517624439222388
+RRGB,mid,vol,2,daily return + rolling volatility,0,0,daily return,0.00024392391524658282,0.021004971699490265,61.418500320444345
+RRGB,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.019904357123653866,0.005653530672609164,61.418500320444345
+RRGB,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.0005332776949257683,0.052312312162159834,38.581499679555655
+RRGB,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.046568300048961994,0.02017437912540941,38.581499679555655
+RRGB,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.022362123683502797,0.027816622677181112,50.22431104464859
+RRGB,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.030337048463654794,0.018541686547813057,50.22431104464859
+RRGB,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.022395346736719064,0.027789881564034592,50.22431104464859
+RRGB,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.023330190277499444,0.02916007326806345,49.77568895535142
+RRGB,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.030206813128459787,0.018701039178771868,49.77568895535142
+RRGB,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.023337417402029714,0.029154289570946488,49.77568895535142
+RRGB,mid,bb,1,20-day return,0,0,20-day return,-0.07404936409269589,0.0955198061459704,64.15897799858055
+RRGB,mid,bb,1,20-day return,1,0,20-day return,0.1367795362253651,0.2888246784879956,35.84102200141945
+RRGB,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.03599739889385546,0.20004087284558245,77.92760823278921
+RRGB,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.17034439385359754,0.1948670305194931,77.92760823278921
+RRGB,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.13634336580733356,0.21257499917089284,22.07239176721079
+RRGB,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.5520280544390505,0.32209274333252,22.07239176721079
+RRGB,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.04289484857816152,0.21058784529156152,64.65578424414478
+RRGB,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.19202230933657666,0.1991600502728311,64.65578424414478
+RRGB,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.26009392757885913,0.187117768001174,64.65578424414478
+RRGB,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.08331497349115148,0.19893729488211448,35.34421575585522
+RRGB,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.31679564492944245,0.4018007584455784,35.34421575585522
+RRGB,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.45480524225057295,0.6502600250758103,35.34421575585522
+GT,mid,vol,1,daily return,0,0,daily return,0.0004946286817373322,0.019247020773371173,82.41828669087802
+GT,mid,vol,1,daily return,1,0,daily return,0.0005883552853022733,0.056986786403061235,17.581713309121984
+GT,mid,vol,2,daily return + rolling volatility,0,0,daily return,0.00045281486432750134,0.021200567929227827,74.23627430036316
+GT,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.01994419290816382,0.005926892580398288,74.23627430036316
+GT,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.0006886089201845549,0.04961530217243559,25.76372569963683
+GT,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.04528057911877577,0.01619323434080552,25.76372569963683
+GT,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.020841266211347985,0.023370952917371252,48.9425336466567
+GT,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.026559992350950756,0.014824183135432071,48.9425336466567
+GT,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.02087216157006222,0.023343364987753516,48.9425336466567
+GT,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.021100368001470256,0.022874293214114175,51.05746635334331
+GT,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.026541016828886554,0.01471232140763003,51.05746635334331
+GT,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.021106498096702734,0.022868636993415754,51.05746635334331
+GT,mid,bb,1,20-day return,0,0,20-day return,-0.03710981265384825,0.058702786156193114,57.70049680624556
+GT,mid,bb,1,20-day return,1,0,20-day return,0.05981523892048869,0.20924414214072876,42.29950319375443
+GT,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.05784907201574469,0.11678619918365869,64.37189496096522
+GT,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.12920263444575855,0.1424560945780697,64.37189496096522
+GT,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.11516531692316517,0.14363277761044788,35.62810503903477
+GT,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.24916286646805377,0.2412756034162456,35.62810503903477
+GT,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.03309934415938512,0.13768571724732329,59.26188786373314
+GT,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.14133596429760723,0.15795591710055945,59.26188786373314
+GT,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.18736750857751763,0.16590547416608606,59.26188786373314
+GT,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.06006114682388738,0.15473087005516376,40.73811213626686
+GT,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.2266432751537432,0.21972500839413045,40.73811213626686
+GT,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.2799464803146799,0.31001516233949683,40.73811213626686
+M,mid,vol,1,daily return,0,0,daily return,0.0003557637162248694,0.017272914173913086,69.72869045075839
+M,mid,vol,1,daily return,1,0,daily return,0.0008325984463371455,0.05110926709540811,30.271309549241614
+M,mid,vol,2,daily return + rolling volatility,0,0,daily return,0.00040844453112775093,0.04359378846956739,42.918179876094854
+M,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.039388976034434246,0.01535001611838962,42.918179876094854
+M,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.0005675546434379833,0.01721430913483972,57.081820123905146
+M,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.016390883746115553,0.004597939385640006,57.081820123905146
+M,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.020797969702801917,0.02243365876387319,48.64345225379193
+M,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.02643955022794435,0.0155732437349995,48.64345225379193
+M,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.02083360481453986,0.022400569183039797,48.64345225379193
+M,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.02073166147408384,0.02480101367021711,51.35654774620807
+M,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.026279813854931083,0.015663115837238856,51.35654774620807
+M,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.020739013326391685,0.024794866258845926,51.35654774620807
+M,mid,bb,1,20-day return,0,0,20-day return,-0.019523610955962205,0.08150134231964619,73.81121362668559
+M,mid,bb,1,20-day return,1,0,20-day return,0.09213284795424695,0.2958458054159307,26.18878637331441
+M,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.03566299283384574,0.09750313836818976,61.46202980837473
+M,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.10933524881548413,0.12470629974237651,61.46202980837473
+M,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.08745476975020897,0.242222013842126,38.53797019162526
+M,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.24325234263458112,0.41162097478583487,38.53797019162526
+M,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.03596344316684257,0.11741185275265424,47.83534421575585
+M,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.1319318076057089,0.12802118503765084,47.83534421575585
+M,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.21250196765439094,0.09746001568017486,47.83534421575585
+M,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.05702807488798965,0.2127098750778099,52.16465578424414
+M,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.17618694854814296,0.37630099773907644,52.16465578424414
+M,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.28698056733546295,0.5061312023602913,52.16465578424414
+KSS,mid,vol,1,daily return,0,0,daily return,0.00023923899239772993,0.051436985254158955,21.7261268959624
+KSS,mid,vol,1,daily return,1,0,daily return,0.00044874207997304074,0.016223761046226,78.27387310403759
+KSS,mid,vol,2,daily return + rolling volatility,0,0,daily return,5.784414666254901e-05,0.04118303194671555,37.85515915402692
+KSS,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.03683877480034232,0.015791951065631405,37.85515915402692
+KSS,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.0006080940539754914,0.01680414558197023,62.14484084597308
+KSS,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.015758778888275326,0.004708133837517576,62.14484084597308
+KSS,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.018210781373180374,0.021018202635703805,49.41251869258706
+KSS,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.02394371046751287,0.014947226190214926,49.41251869258706
+KSS,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.01821078140662503,0.021018202606726384,49.41251869258706
+KSS,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.018578624919602705,0.022685120140712233,50.58748130741295
+KSS,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.023518926383164267,0.014207988127266487,50.58748130741295
+KSS,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.018578624919602705,0.022685120140712233,50.58748130741295
+KSS,mid,bb,1,20-day return,0,0,20-day return,-0.014074616603675814,0.0830465280329237,67.56564939673527
+KSS,mid,bb,1,20-day return,1,0,20-day return,0.051546621025933735,0.2706797421010751,32.434350603264726
+KSS,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.010388573102403457,0.12211571945931153,56.13910574875799
+KSS,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.020557727399867585,0.0897604735371314,56.13910574875799
+KSS,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.030320350492450368,0.21822018360701198,43.860894251242016
+KSS,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.0604079759072658,0.4458595373949106,43.860894251242016
+KSS,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.02551174951223091,0.15383279044690043,77.43080198722498
+KSS,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.053082553388855314,0.18450866992032966,77.43080198722498
+KSS,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.06427004749629454,0.21044238543316235,77.43080198722498
+KSS,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.12144844503538504,0.1846118364993835,22.56919801277502
+KSS,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.25005998777624505,0.4784481158179591,22.56919801277502
+KSS,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.3444135996007439,0.7599881960743369,22.56919801277502
+AEO,mid,vol,1,daily return,0,0,daily return,-0.0007431103987314833,0.050201512973311865,16.235847041230507
+AEO,mid,vol,1,daily return,1,0,daily return,0.000908646588145044,0.019692279525271923,83.76415295876949
+AEO,mid,vol,2,daily return + rolling volatility,0,0,daily return,-0.00011884241767443391,0.04022471911434374,32.42896816919462
+AEO,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.0378181520153178,0.011320841119666447,32.42896816919462
+AEO,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.0009017247270115921,0.021072310280184126,67.57103183080538
+AEO,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.020085771836673712,0.004649216954857208,67.57103183080538
+AEO,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.020252011936617118,0.02078805559357642,48.34437086092716
+AEO,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.026029091180208595,0.011351897914368915,48.34437086092716
+AEO,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.020279712853905223,0.020761032956133407,48.34437086092716
+AEO,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.02014608722592098,0.020301660990884225,51.65562913907284
+AEO,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.0257860349909933,0.011093522231040757,51.65562913907284
+AEO,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.020152391303195617,0.02029540327921799,51.65562913907284
+AEO,mid,bb,1,20-day return,0,0,20-day return,-0.07941210763124901,0.08504711994882254,58.552164655784246
+AEO,mid,bb,1,20-day return,1,0,20-day return,0.1374617126300887,0.1080607439701684,41.447835344215754
+AEO,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.0528142637782321,0.10939674301995575,59.82966643009227
+AEO,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.1510103844047654,0.1265918075431507,59.82966643009227
+AEO,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.10791497036822938,0.13385373736801456,40.17033356990773
+AEO,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.3169685058394507,0.1580848675616236,40.17033356990773
+AEO,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.047939037428933635,0.11640393429770099,53.22924059616749
+AEO,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.16465415700471045,0.1266555909067551,53.22924059616749
+AEO,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.2278700077209554,0.13324702185033943,53.22924059616749
+AEO,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.07881191309462703,0.1412112416506587,46.77075940383251
+AEO,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.26387660566935955,0.19548868817718784,46.77075940383251
+AEO,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.40957418201359813,0.33253007645004357,46.77075940383251
+RL,mid,vol,1,daily return,0,0,daily return,0.000613774831668382,0.01521602156367627,82.5678273873104
+RL,mid,vol,1,daily return,1,0,daily return,0.0006417749352905591,0.042910604277538504,17.432172612689598
+RL,mid,vol,2,daily return + rolling volatility,0,0,daily return,0.0005935947211921136,0.0158992224347229,66.69515060884427
+RL,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.015273267778008153,0.004502144601422025,66.69515060884427
+RL,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.0006712216802393246,0.034671247004191934,33.30484939115574
+RL,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.031831805333390924,0.010846770565214475,33.30484939115574
+RL,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.016030250311186513,0.01726761938361139,48.55800042725914
+RL,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.02086917045698924,0.01072709616481352,48.55800042725914
+RL,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.01603025033754044,0.017267619359145944,48.55800042725914
+RL,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.016336195997622583,0.01793805268088259,51.44199957274087
+RL,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.020814533086686966,0.010648630207186415,51.44199957274087
+RL,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.016336195997622583,0.01793805268088259,51.44199957274087
+RL,mid,bb,1,20-day return,0,0,20-day return,-0.05558370716422959,0.07405904652132128,58.055358410220016
+RL,mid,bb,1,20-day return,1,0,20-day return,0.10175129257908616,0.07212325335079499,41.944641589779984
+RL,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.01944496507419275,0.09714996859746743,70.1916252661462
+RL,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.06349065282403511,0.11924069589338776,70.1916252661462
+RL,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.08024203569770183,0.09488312026772576,29.8083747338538
+RL,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.2338302931641735,0.10533807960500309,29.8083747338538
+RL,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.01588872704365178,0.10137439079157617,60.11355571327183
+RL,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.07477111228861476,0.12230071511689082,60.11355571327183
+RL,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.07266927488013689,0.1283143737642183,60.11355571327183
+RL,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.05117106058499129,0.10195290160115679,39.88644428672818
+RL,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.1807996871591799,0.13526604526186503,39.88644428672818
+RL,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.21252417499409165,0.23996149183902282,39.88644428672818
+BBY,mid,vol,1,daily return,0,0,daily return,-0.0016566699174148283,0.052008694914365695,9.762871181371501
+BBY,mid,vol,1,daily return,1,0,daily return,0.0009582305667306711,0.016850315192555282,90.23712881862849
+BBY,mid,vol,2,daily return + rolling volatility,0,0,daily return,0.0003371776035267702,0.03595559407713009,32.66396069215979
+BBY,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.0333156124066202,0.010533353576411634,32.66396069215979
+BBY,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.0007034429789713308,0.017580924359938396,67.3360393078402
+BBY,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.016716635855671434,0.004390026671628237,67.3360393078402
+BBY,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.017159367624303548,0.018669387549839805,47.74620807519761
+BBY,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.02213957861318796,0.010447354152834126,47.74620807519761
+BBY,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.017195176443716646,0.018636411559674316,47.74620807519761
+BBY,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.016681290659190398,0.018555756653079177,52.25379192480239
+BBY,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.02218617536827759,0.01053447336020543,52.25379192480239
+BBY,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.016691819083637097,0.01854628638579199,52.25379192480239
+BBY,mid,bb,1,20-day return,0,0,20-day return,-0.05898353257076384,0.0718936148774315,57.48757984386089
+BBY,mid,bb,1,20-day return,1,0,20-day return,0.09836875655091554,0.06645717275795295,42.51242015613911
+BBY,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.02425199818306093,0.10114197603344284,67.84953867991483
+BBY,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.07455896274194229,0.09881110241584612,67.84953867991483
+BBY,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.07549983400637689,0.07472971829309154,32.150461320085164
+BBY,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.21852082542121568,0.11430054290011332,32.150461320085164
+BBY,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,0.003065148542073662,0.11180922808806712,69.76579134137685
+BBY,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.05634346535647804,0.1178665023431921,69.76579134137685
+BBY,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.053286657546999544,0.12696810842955153,69.76579134137685
+BBY,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.019130887004316904,0.08502499528793028,30.234208658623135
+BBY,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.18871713623702216,0.1514804793970162,30.234208658623135
+BBY,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.21549177342293221,0.23783193185685064,30.234208658623135
+URBN,mid,vol,1,daily return,0,0,daily return,-8.18593269714378e-06,0.019346785997493086,84.19141209143346
+URBN,mid,vol,1,daily return,1,0,daily return,0.0023748322760236184,0.05065899839143586,15.808587908566546
+URBN,mid,vol,2,daily return + rolling volatility,0,0,daily return,-5.937506231602278e-06,0.0198738245672798,66.3319803460799
+URBN,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.019066104552054777,0.004960611561364198,66.3319803460799
+URBN,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.0013642416254809793,0.04003277931482428,33.6680196539201
+URBN,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.03728708942388845,0.011584390689254232,33.6680196539201
+URBN,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.019459273952531105,0.01944940771534119,49.54069643238624
+URBN,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.025258376049868785,0.01174072926955774,49.54069643238624
+URBN,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.019459273976314608,0.01944940769154562,49.54069643238624
+URBN,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.020026762169368065,0.021507253864678725,50.45930356761376
+URBN,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.025400601036001405,0.01168419961476452,50.45930356761376
+URBN,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.020026762169368065,0.021507253864678725,50.45930356761376
+URBN,mid,bb,1,20-day return,0,0,20-day return,-0.06012251198943308,0.0844639111787759,62.52661462029808
+URBN,mid,bb,1,20-day return,1,0,20-day return,0.11830707357605535,0.08557403766910428,37.47338537970192
+URBN,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.04055295865455729,0.10724844652812374,55.92618878637331
+URBN,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.12921806474120698,0.11386280926990613,55.92618878637331
+URBN,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.06431697887114615,0.11152631017549294,44.07381121362668
+URBN,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.1984142312548074,0.126263352099404,44.07381121362668
+URBN,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.03966742042254588,0.12257021445578922,45.209368346344924
+URBN,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.13668813317896975,0.13623783627051914,45.209368346344924
+URBN,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.23137924756408673,0.09822908990489054,45.209368346344924
+URBN,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.04380005233378642,0.105669660258554,54.790631653655076
+URBN,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.14275221107494585,0.15441516398937252,54.790631653655076
+URBN,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.2533603751938825,0.1858022517206529,54.790631653655076
+XRAY,mid,vol,1,daily return,0,0,daily return,-0.0009142423713079503,0.03198627083996234,17.154454176458025
+XRAY,mid,vol,1,daily return,1,0,daily return,0.0005055735079377333,0.011448674931871987,82.84554582354198
+XRAY,mid,vol,2,daily return + rolling volatility,0,0,daily return,-0.0002016555544803987,0.02760964660489647,25.22965178380688
+XRAY,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.025455427573124925,0.008719689248858338,25.22965178380688
+XRAY,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.00037668140868630644,0.012167693562185203,74.77034821619311
+XRAY,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.011491978624837437,0.0034420090721070658,74.77034821619311
+XRAY,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.012040233660367152,0.0133020124586683,47.66075624866482
+XRAY,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.014938706800043066,0.007944647340031325,47.66075624866482
+XRAY,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.012040233675968034,0.01330201244454726,47.66075624866482
+XRAY,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.011400678130117503,0.012670766792023714,52.33924375133518
+XRAY,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.015186096420351593,0.008216603773601514,52.33924375133518
+XRAY,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.011400678130117503,0.012670766792023714,52.33924375133518
+XRAY,mid,bb,1,20-day return,0,0,20-day return,-0.0747782481485895,0.06481891136187339,41.30589070262597
+XRAY,mid,bb,1,20-day return,1,0,20-day return,0.056923826553770714,0.056006641174334446,58.69410929737402
+XRAY,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.033540359627408256,0.09002039260552838,55.003548616039744
+XRAY,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.12366525927890547,0.09679024166200591,55.003548616039744
+XRAY,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.04109282947108415,0.06693097295081366,44.996451383960256
+XRAY,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.14291295752452943,0.09270214139079025,44.996451383960256
+XRAY,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.03115749676621039,0.09901319123234177,47.40951029098652
+XRAY,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.11650530982732821,0.12858392483140096,47.40951029098652
+XRAY,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.20321965940131034,0.07909227344606509,47.40951029098652
+XRAY,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.02824591005816516,0.06637489583700325,52.59048970901349
+XRAY,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.09825221353032851,0.11746393872583004,52.59048970901349
+XRAY,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.1728834768261685,0.147505393389472,52.59048970901349
+EQT,mid,vol,1,daily return,0,0,daily return,0.0003373976204444451,0.04070619183791653,33.433027130954926
+EQT,mid,vol,1,daily return,1,0,daily return,0.0007285433318296204,0.016437406199518147,66.56697286904507
+EQT,mid,vol,2,daily return + rolling volatility,0,0,daily return,0.0003798945062916922,0.01699109377328533,64.34522537919248
+EQT,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.015893595887131323,0.004582955284198327,64.34522537919248
+EQT,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.0009708590424121182,0.03937782869463204,35.65477462080752
+EQT,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.03583002723372403,0.014002930036742231,35.65477462080752
+EQT,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.01838675597463976,0.018800399865383177,49.00662251655629
+EQT,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.02310284777572215,0.012660139308491905,49.00662251655629
+EQT,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.018424801668479297,0.01876311578193913,49.00662251655629
+EQT,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.018741863634501386,0.02117524359835338,50.993377483443716
+EQT,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.023144457139047163,0.013847592802359813,50.993377483443716
+EQT,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.018752939463201033,0.021165435394372798,50.993377483443716
+EQT,mid,bb,1,20-day return,0,0,20-day return,-0.012878348395750841,0.0798845116389629,72.03690560681333
+EQT,mid,bb,1,20-day return,1,0,20-day return,0.09788467927532163,0.29048194938333904,27.963094393186655
+EQT,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.00877284435216404,0.13093912465763902,88.6444286728176
+EQT,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.018037919482185274,0.18641017418323322,88.6444286728176
+EQT,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.24137741249256087,0.29993368337305903,11.355571327182398
+EQT,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.6953989329674589,0.5138906009629021,11.355571327182398
+EQT,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.016517950216013697,0.11981150679905843,82.39886444286728
+EQT,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.022764218008510025,0.19185175974953797,82.39886444286728
+EQT,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.03442715010762791,0.24187323696401292,82.39886444286728
+EQT,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.18607745197180856,0.2789552894224732,17.601135557132718
+EQT,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.45663916575835256,0.5178092121003366,17.601135557132718
+EQT,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.7132901697962456,0.4306338858656453,17.601135557132718
+SON,mid,vol,1,daily return,0,0,daily return,-0.00019613106484106792,0.031006542459302008,16.235847041230507
+SON,mid,vol,1,daily return,1,0,daily return,0.0005576082006724552,0.010521654235155754,83.76415295876949
+SON,mid,vol,2,daily return + rolling volatility,0,0,daily return,0.00021744458168688587,0.027169103700184414,22.046571245460374
+SON,mid,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.024560443607491995,0.010432014620523445,22.046571245460374
+SON,mid,vol,2,daily return + rolling volatility,1,0,daily return,0.00047785316321774713,0.011463383083019132,77.95342875453963
+SON,mid,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.010754729320397201,0.003349385489691097,77.95342875453963
+SON,mid,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.011018728501567154,0.01241698929293425,47.8102969450972
+SON,mid,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.014045078139052257,0.00853346811667943,47.8102969450972
+SON,mid,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.011076711521370068,0.012365292667965435,47.8102969450972
+SON,mid,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.010671724502715158,0.011992895074107942,52.1897030549028
+SON,mid,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.013611878779233299,0.007703858961423598,52.1897030549028
+SON,mid,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.010689775445196037,0.011976808299864264,52.1897030549028
+SON,mid,bb,1,20-day return,0,0,20-day return,-0.04016152003864354,0.04240037640917842,46.41589779985806
+SON,mid,bb,1,20-day return,1,0,20-day return,0.043682714126074974,0.04068239233186062,53.58410220014195
+SON,mid,bb,2,20-day return + 60-day return,0,0,20-day return,-0.005258112032108665,0.06941922463354823,57.34563520227112
+SON,mid,bb,2,20-day return + 60-day return,0,1,60-day return,-0.03965100421786611,0.0685425464036268,57.34563520227112
+SON,mid,bb,2,20-day return + 60-day return,1,0,20-day return,0.019355358104597462,0.03607317020205554,42.65436479772888
+SON,mid,bb,2,20-day return + 60-day return,1,1,60-day return,0.08862358069326072,0.0518929218680458,42.65436479772888
+SON,mid,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.005920099071443818,0.06874510115385829,59.545777146912705
+SON,mid,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.03714682790360158,0.0689292764617716,59.545777146912705
+SON,mid,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.02536464163334206,0.0818564979693216,59.545777146912705
+SON,mid,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.021422422771115675,0.03461795815803297,40.454222853087295
+SON,mid,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.09077218031083516,0.05197629601759325,40.454222853087295
+SON,mid,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.09387590400223639,0.09272952547805535,40.454222853087295
+BB,small,vol,1,daily return,0,0,daily return,-0.0007483993148695715,0.022315764144108904,87.20358897671437
+BB,small,vol,1,daily return,1,0,daily return,0.004945791470140609,0.072321874714113,12.796411023285623
+BB,small,vol,2,daily return + rolling volatility,0,0,daily return,-0.0003179037972735849,0.024416934856443594,67.87011322367016
+BB,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.023373421670869,0.006331381595202273,67.87011322367016
+BB,small,vol,2,daily return + rolling volatility,1,0,daily return,0.0013720077048099575,0.05298620732546677,32.12988677632985
+BB,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.04753881712246793,0.01852399777490046,32.12988677632985
+BB,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.022651998577602427,0.02609134668773604,51.399273659474474
+BB,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.031613205643277686,0.01683644729762303,51.399273659474474
+BB,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.022680347269874435,0.026066707871483043,51.399273659474474
+BB,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.024755696344369846,0.028997304446028518,48.60072634052553
+BB,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.030898212716278527,0.015818235988854526,48.60072634052553
+BB,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.02475844699647725,0.028994955922590025,48.60072634052553
+BB,small,bb,1,20-day return,0,0,20-day return,-0.033896389150557066,0.10320284684020356,80.76650106458482
+BB,small,bb,1,20-day return,1,0,20-day return,0.15456749949513082,0.4003100210445491,19.233498935415188
+BB,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.030502917374428767,0.13136563646062047,73.17246273953158
+BB,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.14303009620153467,0.12824013222311145,73.17246273953158
+BB,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.09587571534051115,0.33530579486120143,26.827537260468414
+BB,small,bb,2,20-day return + 60-day return,1,1,60-day return,0.36132656265447943,0.4564043638393975,26.827537260468414
+BB,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.03166503947756006,0.14206914610552104,73.31440738112136
+BB,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.08970566428795393,0.18681955407208548,73.31440738112136
+BB,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.18384321425380534,0.12875829210749867,73.31440738112136
+BB,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.10027265488284527,0.3230865692166913,26.68559261887864
+BB,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.22067366714549894,0.5259198047778895,26.68559261887864
+BB,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.4281484148607383,0.49152810950292963,26.68559261887864
+GRMN,small,vol,1,daily return,0,0,daily return,0.0004522747162807861,0.03997611345311318,21.597949156163214
+GRMN,small,vol,1,daily return,1,0,daily return,0.0008593897394619116,0.01303509532599138,78.40205084383679
+GRMN,small,vol,2,daily return + rolling volatility,0,0,daily return,0.00042939211671523157,0.034061669468383994,32.17261268959624
+GRMN,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.0311323550913956,0.010742533747122928,32.17261268959624
+GRMN,small,vol,2,daily return + rolling volatility,1,0,daily return,0.0009219381037787111,0.01407586844388728,67.82738731040376
+GRMN,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.013579000768198771,0.004263708851926131,67.82738731040376
+GRMN,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.014870811718673198,0.017310760860139312,47.19077120273446
+GRMN,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.019659274963275797,0.01091788959168088,47.19077120273446
+GRMN,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.014914683904573043,0.01727297561961543,47.19077120273446
+GRMN,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.014666134881596946,0.016885022555667303,52.80922879726554
+GRMN,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.018896915355072055,0.010716740663494949,52.80922879726554
+GRMN,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.014676622007271716,0.016875907843024496,52.80922879726554
+GRMN,small,bb,1,20-day return,0,0,20-day return,-0.06978075620272177,0.0517139612094622,27.82114975159688
+GRMN,small,bb,1,20-day return,1,0,20-day return,0.048775897291855864,0.05207866578705794,72.17885024840312
+GRMN,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.032446318883774534,0.08021264772436416,29.595457771469125
+GRMN,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.1231333487526165,0.06593617976788335,29.595457771469125
+GRMN,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.03561045497718981,0.061620855565500336,70.40454222853087
+GRMN,small,bb,2,20-day return + 60-day return,1,1,60-day return,0.1151387524541161,0.09614425814951467,70.40454222853087
+GRMN,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.03159012738941738,0.08741832615181833,22.07239176721079
+GRMN,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.1368157572576251,0.0675660880341289,22.07239176721079
+GRMN,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.18370719530870505,0.0645148245231023,22.07239176721079
+GRMN,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.028830626116195156,0.06436471483703957,77.92760823278921
+GRMN,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.09608743326382876,0.1091798232781694,77.92760823278921
+GRMN,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.14103074829778284,0.11550078813070122,77.92760823278921
+PLUG,small,vol,1,daily return,0,0,daily return,-0.0025527071835451873,0.03295160674999715,83.97778252510147
+PLUG,small,vol,1,daily return,1,0,daily return,0.016383413045601623,0.11362850722553253,16.022217474898525
+PLUG,small,vol,2,daily return + rolling volatility,0,0,daily return,-0.0013275272510818385,0.037180894837638284,73.83037812433241
+PLUG,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.035697975171277985,0.011050676104945957,73.83037812433241
+PLUG,small,vol,2,daily return + rolling volatility,1,0,daily return,0.0076974308972698816,0.09446274482476334,26.16962187566759
+PLUG,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.08367261614258101,0.03595524204760957,26.16962187566759
+PLUG,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.03566717274422728,0.0366568230863171,49.86114078188421
+PLUG,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.04785066577340381,0.02961350149510704,49.86114078188421
+PLUG,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.03566717275902394,0.03665682307191991,49.86114078188421
+PLUG,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.037624362309803754,0.05279197750348865,50.13885921811578
+PLUG,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.049141332185387666,0.029858645404293768,50.13885921811578
+PLUG,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.037624362309803754,0.05279197750348865,50.13885921811578
+PLUG,small,bb,1,20-day return,0,0,20-day return,-0.11288576469835507,0.1344165468756888,62.52661462029808
+PLUG,small,bb,1,20-day return,1,0,20-day return,0.3148557300673258,0.2429719530700309,37.47338537970192
+PLUG,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.03665105672614198,0.18426585519535327,64.37189496096522
+PLUG,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.16745611086792317,0.2168704469615681,64.37189496096522
+PLUG,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.19324003173422638,0.3441354170643946,35.62810503903477
+PLUG,small,bb,2,20-day return + 60-day return,1,1,60-day return,0.7844759676564724,0.6497407396629997,35.62810503903477
+PLUG,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.036517337533088765,0.19090016311793448,69.90773598296664
+PLUG,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.12696833946436523,0.24597727026337957,69.90773598296664
+PLUG,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.14721922383476468,0.24419639053320452,69.90773598296664
+PLUG,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.22768050707356846,0.34127434625839065,30.092264017033354
+PLUG,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.8357064481181767,0.6936022863660307,30.092264017033354
+PLUG,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,1.3079251638288865,1.129148421114345,30.092264017033354
+RIG,small,vol,1,daily return,0,0,daily return,-0.00014050056337522727,0.023079430783698302,69.5577867976928
+RIG,small,vol,1,daily return,1,0,daily return,0.001390012069227093,0.06119092860472185,30.4422132023072
+RIG,small,vol,2,daily return + rolling volatility,0,0,daily return,-4.6926582928693676e-05,0.02289559909442423,62.84981841486862
+RIG,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.021526351177316137,0.006342929187965314,62.84981841486862
+RIG,small,vol,2,daily return + rolling volatility,1,0,daily return,0.0009672638148866451,0.05663336014709183,37.15018158513138
+RIG,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.0500913231383597,0.022819814041654066,37.15018158513138
+RIG,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.02507040213993039,0.026744443907290902,50.032044434949796
+RIG,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.03182994896663704,0.019404681644358854,50.032044434949796
+RIG,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.025101661486195064,0.026715106849880405,50.032044434949796
+RIG,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.026001907734927547,0.0318457146575846,49.967955565050204
+RIG,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.032337400180722856,0.02096372208347984,49.967955565050204
+RIG,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.026006042060620335,0.0318423385486875,49.967955565050204
+RIG,small,bb,1,20-day return,0,0,20-day return,-0.06534116479044905,0.12786660187923524,71.82398864442867
+RIG,small,bb,1,20-day return,1,0,20-day return,0.23327019307498,0.393690702161344,28.17601135557133
+RIG,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.042605991122966494,0.1442782572269764,66.71398154719658
+RIG,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.045532230702028616,0.20659198298790915,66.71398154719658
+RIG,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.15762085845339024,0.40193366339557124,33.286018452803404
+RIG,small,bb,2,20-day return + 60-day return,1,1,60-day return,0.37986066900737353,0.8735257047293701,33.286018452803404
+RIG,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.028204656106145382,0.20247306089880635,84.24414478353442
+RIG,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.06250430874820014,0.2968441193934627,84.24414478353442
+RIG,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.027719930705491145,0.3339320664314375,84.24414478353442
+RIG,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.30198471436545143,0.41706997888060066,15.755855216465578
+RIG,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.9400307016693119,0.8510702156965183,15.755855216465578
+RIG,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.9707541945682094,1.4236276021226297,15.755855216465578
+IMAX,small,vol,1,daily return,0,0,daily return,-0.0002948685505751702,0.01981529966319389,89.46806237983337
+IMAX,small,vol,1,daily return,1,0,daily return,0.005881480404712322,0.06778940871911224,10.531937620166632
+IMAX,small,vol,2,daily return + rolling volatility,0,0,daily return,-0.00015172443047540722,0.020778638647255154,72.07861568041018
+IMAX,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.01978266070002171,0.0058505673013496025,72.07861568041018
+IMAX,small,vol,2,daily return + rolling volatility,1,0,daily return,0.0025067218977759863,0.04958347048797789,27.92138431958983
+IMAX,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.04297940591151201,0.021643631644940493,27.92138431958983
+IMAX,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.0194894638593657,0.021806521976585974,49.83977782525101
+IMAX,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.026324135041540943,0.016341189623287435,49.83977782525101
+IMAX,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.019489463890468035,0.02180652194878843,49.83977782525101
+IMAX,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.02056120914526686,0.027097483782266812,50.16022217474898
+IMAX,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.026360420650644593,0.01628730159786664,50.16022217474898
+IMAX,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.02056120914526686,0.027097483782266812,50.16022217474898
+IMAX,small,bb,1,20-day return,0,0,20-day return,-0.09068366466216483,0.08325449792584254,47.40951029098652
+IMAX,small,bb,1,20-day return,1,0,20-day return,0.09291660552490044,0.09233162544159859,52.59048970901349
+IMAX,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.006775085481928843,0.16457639260335283,36.692689850958125
+IMAX,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.1631910588526134,0.13880421825732908,36.692689850958125
+IMAX,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.008433346522829024,0.09818201126548973,63.307310149041875
+IMAX,small,bb,2,20-day return + 60-day return,1,1,60-day return,0.11221972031451323,0.15552759868725693,63.307310149041875
+IMAX,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.04179016892313417,0.13135138592892442,45.13839602555004
+IMAX,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.13963810486591727,0.13278175287090327,45.13839602555004
+IMAX,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.10814496324709592,0.15838859249510812,45.13839602555004
+IMAX,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.03934603102536912,0.11095353677598274,54.86160397444997
+IMAX,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.1327474665374443,0.1582132544479395,54.86160397444997
+IMAX,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.11844956695565989,0.26386823054628356,54.86160397444997
+NOK,small,vol,1,daily return,0,0,daily return,-0.0010953898382857913,0.0533383000416642,15.573595385601365
+NOK,small,vol,1,daily return,1,0,daily return,0.0004142179345523568,0.01635520947761916,84.42640461439863
+NOK,small,vol,2,daily return + rolling volatility,0,0,daily return,-0.00017251255600631083,0.042347058774899915,28.305917538987398
+NOK,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.03792694761121306,0.014807319395952654,28.305917538987398
+NOK,small,vol,2,daily return + rolling volatility,1,0,daily return,0.0002702002115672788,0.017346337531856763,71.69408246101261
+NOK,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.01691438416248669,0.004671562614090497,71.69408246101261
+NOK,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.018154867279310052,0.020849442127689195,47.61803033539842
+NOK,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.02304428483208531,0.013363894722405577,47.61803033539842
+NOK,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.018154867307363754,0.020849442103261142,47.61803033539842
+NOK,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.01677539590439862,0.020529869447890144,52.38196966460158
+NOK,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.022931675222677587,0.012703170467377711,52.38196966460158
+NOK,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.01677539590439862,0.020529869447890144,52.38196966460158
+NOK,small,bb,1,20-day return,0,0,20-day return,-0.008542985423691371,0.04058409094031665,64.01703335699077
+NOK,small,bb,1,20-day return,1,0,20-day return,0.008230502469202513,0.15627413764465742,35.98296664300923
+NOK,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.03186069153783417,0.11881497037524391,46.628814762242726
+NOK,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.1284427304501354,0.08377704194316146,46.628814762242726
+NOK,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.023011414873464364,0.07864263139511689,53.37118523775728
+NOK,small,bb,2,20-day return + 60-day return,1,1,60-day return,0.09635847258900751,0.13891519487212578,53.37118523775728
+NOK,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.008514539380559462,0.15887401694012246,19.94322214336409
+NOK,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,0.1527208429061152,0.2338284988413435,19.94322214336409
+NOK,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,0.17175601710422125,0.3024847483676661,19.94322214336409
+NOK,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,-0.0003815215740774806,0.08242894190691297,80.0567778566359
+NOK,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,-0.04676767429343241,0.10438756141622861,80.0567778566359
+NOK,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,-0.05338089782004505,0.111604125457333,80.0567778566359
+SIRI,small,vol,1,daily return,0,0,daily return,-0.00011293079284890435,0.015697590010783278,85.64409314249092
+SIRI,small,vol,1,daily return,1,0,daily return,0.004073061835794064,0.07502705733928064,14.35590685750908
+SIRI,small,vol,2,daily return + rolling volatility,0,0,daily return,0.00039513140570459493,0.017868358217886765,82.43964964751122
+SIRI,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.016749385575604226,0.006482450716029858,82.43964964751122
+SIRI,small,vol,2,daily return + rolling volatility,1,0,daily return,0.0014023618091603505,0.06993839791673684,17.560350352488786
+SIRI,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.056888325758760475,0.03628579317396104,17.560350352488786
+SIRI,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.0196200953720602,0.025467774761216356,45.6740012817774
+SIRI,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.024115106437845035,0.021853109998155172,45.6740012817774
+SIRI,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.019620095422470236,0.02546777472238101,45.6740012817774
+SIRI,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.017552401027611162,0.03013413549158547,54.3259987182226
+SIRI,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.02369479853455082,0.022946739528495304,54.3259987182226
+SIRI,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.017552401027611162,0.03013413549158547,54.3259987182226
+SIRI,small,bb,1,20-day return,0,0,20-day return,-0.011904193095312134,0.16241487593146944,28.388928317955997
+SIRI,small,bb,1,20-day return,1,0,20-day return,0.008061226552441566,0.04163730305822563,71.611071682044
+SIRI,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.005893258510660267,0.1673866466836958,25.05322924059617
+SIRI,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.04828114653844047,0.2421489871810444,25.05322924059617
+SIRI,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.004925435043095796,0.050521222041130465,74.94677075940383
+SIRI,small,bb,2,20-day return + 60-day return,1,1,60-day return,0.019398513791764275,0.06866546098610662,74.94677075940383
+SIRI,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,0.0008911816628878112,0.15417470162092856,29.595457771469125
+SIRI,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.03371944391412933,0.22766314777549065,29.595457771469125
+SIRI,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.0692853474383931,0.23893276188145496,29.595457771469125
+SIRI,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.002682291748733315,0.05328512730997573,70.40454222853087
+SIRI,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.01731634234345583,0.06918307553896098,70.40454222853087
+SIRI,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.029615644899279498,0.08922409059476694,70.40454222853087
+XRX,small,vol,1,daily return,0,0,daily return,-0.0020179426165493485,0.04661351171768707,14.676351207007048
+XRX,small,vol,1,daily return,1,0,daily return,0.0007633087362941253,0.015318277763546915,85.32364879299294
+XRX,small,vol,2,daily return + rolling volatility,0,0,daily return,0.00020531079923019385,0.016458163313196893,76.77846613971374
+XRX,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.015723484129664293,0.004475856070557319,76.77846613971374
+XRX,small,vol,2,daily return + rolling volatility,1,0,daily return,0.0005152631603072714,0.03956885596216621,23.221533860286264
+XRX,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.03534058641476992,0.014504491332143645,23.221533860286264
+XRX,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.016153058733582904,0.01798281729641617,47.61803033539842
+XRX,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.020333824470184624,0.011774948173035106,47.61803033539842
+XRX,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.01619108792070667,0.017948584799666246,47.61803033539842
+XRX,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.015483923032798946,0.01802631739285338,52.38196966460158
+XRX,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.020300329073228283,0.011354941650235447,52.38196966460158
+XRX,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.01548767088396198,0.01802309745364559,52.38196966460158
+XRX,small,bb,1,20-day return,0,0,20-day return,-0.0034610211825464106,0.06367220964267604,79.77288857345636
+XRX,small,bb,1,20-day return,1,0,20-day return,0.02882353135347319,0.22540324988999577,20.227111426543647
+XRX,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.0021051420702012714,0.05749149028661737,42.79630943931866
+XRX,small,bb,2,20-day return + 60-day return,0,1,60-day return,0.1134071771274611,0.13637577513759672,42.79630943931866
+XRX,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.008574037695301866,0.15406874929931996,57.20369056068133
+XRX,small,bb,2,20-day return + 60-day return,1,1,60-day return,-0.080737671463025,0.17358428775592943,57.20369056068133
+XRX,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,0.0018815986102876311,0.15817226207897317,48.474095102909864
+XRX,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.051180312959550826,0.1498389474527722,48.474095102909864
+XRX,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.08737994083995454,0.11407967693767483,48.474095102909864
+XRX,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.006137528974764345,0.07603634424094487,51.525904897090136
+XRX,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.05078729623874523,0.2019195818831952,51.525904897090136
+XRX,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.08173842208395643,0.26863865096240713,51.525904897090136
+GME,small,vol,1,daily return,0,0,daily return,-0.00038377649402792464,0.023955635386786547,88.84853663747062
+GME,small,vol,1,daily return,1,0,daily return,0.016671237476880214,0.1381116296455779,11.151463362529373
+GME,small,vol,2,daily return + rolling volatility,0,0,daily return,0.00030346265926552894,0.024224534867380323,77.52616962187567
+GME,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.02282143295786659,0.007134048953477175,77.52616962187567
+GME,small,vol,2,daily return + rolling volatility,1,0,daily return,0.006325631015967335,0.10226904583788018,22.473830378124333
+GME,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.07527197897302677,0.06366756571066232,22.473830378124333
+GME,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.0249430642765503,0.03287318704734414,48.79299295022431
+GME,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.03591079502919468,0.04035993154393177,48.79299295022431
+GME,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.02498140909008895,0.03284405702752654,48.79299295022431
+GME,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.027268461541804116,0.056375849966520945,51.20700704977569
+GME,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.03355687998289352,0.035446917953537466,51.20700704977569
+GME,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.027274577281566223,0.05637289143210947,51.20700704977569
+GME,small,bb,1,20-day return,0,0,20-day return,-0.017185334241346373,0.19450105703313778,92.05110007097232
+GME,small,bb,1,20-day return,1,0,20-day return,1.5962776407076045,2.5168522705402645,7.94889992902768
+GME,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.01532700263731604,0.19809055064370162,87.15400993612491
+GME,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.05856708357076533,0.27834233819281695,87.15400993612491
+GME,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.9805010893104114,2.146032475511511,12.845990063875087
+GME,small,bb,2,20-day return + 60-day return,1,1,60-day return,3.66088309244537,4.853340991320987,12.845990063875087
+GME,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.008255459303700245,0.21112267444461172,85.23775727466288
+GME,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.061981246958369283,0.27824741336767866,85.23775727466288
+GME,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.11234248787353941,0.2924593093039795,85.23775727466288
+GME,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.8137083629412541,2.0434552639837484,14.762242725337119
+GME,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,3.2101036253510795,4.688872245708754,14.762242725337119
+GME,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,6.813416199922425,6.43532647480113,14.762242725337119
+DDS,small,vol,1,daily return,0,0,daily return,0.0004520371912388341,0.018529694278748385,74.21491134372997
+DDS,small,vol,1,daily return,1,0,daily return,0.003701345067406678,0.06352992943738522,25.785088656270027
+DDS,small,vol,2,daily return + rolling volatility,0,0,daily return,0.0005907790312390233,0.02072534399033621,63.34116641743217
+DDS,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.019745294466801833,0.006411701769360611,63.34116641743217
+DDS,small,vol,2,daily return + rolling volatility,1,0,daily return,0.0026006092382875753,0.05394845899714702,36.65883358256783
+DDS,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.048180593616323125,0.02078172656935715,36.65883358256783
+DDS,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.0223743831950305,0.02530152406863292,48.835718863490705
+DDS,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.030874245273953233,0.02061660480499182,48.835718863490705
+DDS,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.02241198248196832,0.025268224804715102,48.835718863490705
+DDS,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.02392675917361465,0.031186503238705286,51.164281136509295
+DDS,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.029633356754865472,0.017994442476123335,51.164281136509295
+DDS,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.02393541924006747,0.0311798571935815,51.164281136509295
+DDS,small,bb,1,20-day return,0,0,20-day return,-0.061922986385551056,0.10956109789095465,60.82327892122073
+DDS,small,bb,1,20-day return,1,0,20-day return,0.1950891414683002,0.1463899238018385,39.17672107877927
+DDS,small,bb,2,20-day return + 60-day return,0,0,20-day return,0.010355590823863175,0.14763760465725984,80.90844570617459
+DDS,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.0037391673265362965,0.20638953101040558,80.90844570617459
+DDS,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.171408670306914,0.22935088288831013,19.091554293825407
+DDS,small,bb,2,20-day return + 60-day return,1,1,60-day return,0.6428288756330774,0.2074464226485897,19.091554293825407
+DDS,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,0.005712204609717824,0.12340927784099212,58.055358410220016
+DDS,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,0.013997387721943503,0.16831808210863397,58.055358410220016
+DDS,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,7.097830495155233e-05,0.15358553237658432,58.055358410220016
+DDS,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.08963647117418057,0.2241383920116298,41.944641589779984
+DDS,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.26420232968704105,0.4235802831864296,41.944641589779984
+DDS,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.5371996054620917,0.6496716204428404,41.944641589779984
+NTGR,small,vol,1,daily return,0,0,daily return,0.00039409238922840745,0.058336026968676166,8.48109378337962
+NTGR,small,vol,1,daily return,1,0,daily return,0.0004247011758775404,0.017875494505235994,91.51890621662038
+NTGR,small,vol,2,daily return + rolling volatility,0,0,daily return,0.00041675753776855795,0.03768478800162152,36.9792779320658
+NTGR,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.03514835850465444,0.010522361710666946,36.9792779320658
+NTGR,small,vol,2,daily return + rolling volatility,1,0,daily return,0.00042278943905060026,0.018321123960788378,63.0207220679342
+NTGR,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.01758341837858316,0.004773146879162064,63.0207220679342
+NTGR,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.0183185362781989,0.020088531167269833,47.8102969450972
+NTGR,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.02404173781451009,0.01119433145268103,47.8102969450972
+NTGR,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.018353572011756546,0.02005652637530556,47.8102969450972
+NTGR,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.01757793201310234,0.02065004296955964,52.1897030549028
+NTGR,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.02412230121405621,0.011358734331140355,52.1897030549028
+NTGR,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.017586625998760298,0.02064263923246337,52.1897030549028
+NTGR,small,bb,1,20-day return,0,0,20-day return,-0.0808427072379789,0.05991405613218333,59.19091554293825
+NTGR,small,bb,1,20-day return,1,0,20-day return,0.10243265178247137,0.09921062664333591,40.80908445706174
+NTGR,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.05149228188897766,0.08187473928922603,61.46202980837473
+NTGR,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.14915767806024732,0.08217447584724995,61.46202980837473
+NTGR,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.06645043750653418,0.13315843673422428,38.53797019162526
+NTGR,small,bb,2,20-day return + 60-day return,1,1,60-day return,0.16846136230659045,0.12366184225089012,38.53797019162526
+NTGR,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.04610847051210735,0.0865420183648532,61.24911284599006
+NTGR,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.1473661483132691,0.08527405196937733,61.24911284599006
+NTGR,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.17338588140699404,0.11825631384179504,61.24911284599006
+NTGR,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.057250007709493324,0.1355694611726353,38.75088715400994
+NTGR,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.1636362650570583,0.12969535889637177,38.75088715400994
+NTGR,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.14138567285862008,0.19595063660769207,38.75088715400994
+HIMX,small,vol,1,daily return,0,0,daily return,-0.0013795482962676102,0.022815315488687798,81.45604395604396
+HIMX,small,vol,1,daily return,1,0,daily return,0.007593208370485768,0.06383093782168343,18.543956043956044
+HIMX,small,vol,2,daily return + rolling volatility,0,0,daily return,-0.0008520291500931339,0.02646652426920517,60.82875457875458
+HIMX,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.02461318306171047,0.006231097752294209,60.82875457875458
+HIMX,small,vol,2,daily return + rolling volatility,1,0,daily return,0.0035209478831277554,0.05032153006473889,39.17124542124542
+HIMX,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.04758987152430677,0.01311935567722483,39.17124542124542
+HIMX,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.024903967377828278,0.0245134828873823,49.1529304029304
+HIMX,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.03345022019856797,0.014425211131499555,49.1529304029304
+HIMX,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.024926113432748167,0.02449096371243262,49.1529304029304
+HIMX,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.026511899570898303,0.030670418372939226,50.84706959706959
+HIMX,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.03401640341801435,0.015097167788780598,50.84706959706959
+HIMX,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.026511904838392705,0.0306704138196493,50.84706959706959
+HIMX,small,bb,1,20-day return,0,0,20-day return,-0.047056467638635927,0.08406680145172142,69.55287437899219
+HIMX,small,bb,1,20-day return,1,0,20-day return,0.1610787073405336,0.2815721122670143,30.44712562100781
+HIMX,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.03201814346803088,0.11850095377598031,80.26969481902059
+HIMX,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.0850072444048511,0.1708006141293788,80.26969481902059
+HIMX,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.20716823029608647,0.29642835447082583,19.730305180979418
+HIMX,small,bb,2,20-day return + 60-day return,1,1,60-day return,0.5968443496717232,0.5724683614093031,19.730305180979418
+HIMX,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.02465747618500136,0.12427139335392687,76.86302342086586
+HIMX,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.07395415520873061,0.18316517862223008,76.86302342086586
+HIMX,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.14916638214379008,0.1634154087527122,76.86302342086586
+HIMX,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.15793454772663618,0.3007093748717702,23.13697657913414
+HIMX,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.48885882770499844,0.6066984740327862,23.13697657913414
+HIMX,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.919070332881212,0.8187277854993054,23.13697657913414
+SCVL,small,vol,1,daily return,0,0,daily return,8.460934869338842e-05,0.021792827289876037,89.68169194616536
+SCVL,small,vol,1,daily return,1,0,daily return,0.005556021881182534,0.06656710873742892,10.31830805383465
+SCVL,small,vol,2,daily return + rolling volatility,0,0,daily return,0.0004044448689765987,0.02258207649672096,69.28006836146122
+SCVL,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.021299672978956553,0.00579435505227923,69.28006836146122
+SCVL,small,vol,2,daily return + rolling volatility,1,0,daily return,0.0019631492099595146,0.04772523533427628,30.71993163853877
+SCVL,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.04373065466951276,0.016962567235566165,30.71993163853877
+SCVL,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.021050842602402746,0.021817561836332728,49.45524460585345
+SCVL,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.028504951707774433,0.01503705985294867,49.45524460585345
+SCVL,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.021087238511353613,0.021782386249413123,49.45524460585345
+SCVL,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.022320255149209732,0.026507753490955823,50.54475539414655
+SCVL,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.028067437007932218,0.014666137154532568,50.54475539414655
+SCVL,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.022330381415707916,0.026499223590364124,50.54475539414655
+SCVL,small,bb,1,20-day return,0,0,20-day return,-0.06812989111467356,0.09221757360128711,58.12633073101491
+SCVL,small,bb,1,20-day return,1,0,20-day return,0.14517313869031706,0.10802522256533782,41.8736692689851
+SCVL,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.033407866237032235,0.13882401588644475,46.77075940383251
+SCVL,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.12573155185913196,0.13633500593103826,46.77075940383251
+SCVL,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.07319551662679834,0.13111198659363085,53.22924059616749
+SCVL,small,bb,2,20-day return + 60-day return,1,1,60-day return,0.22402822976778952,0.14659504576637555,53.22924059616749
+SCVL,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.006794110950791554,0.14968123674714703,60.9652235628105
+SCVL,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.0664078952940609,0.1644131474866245,60.9652235628105
+SCVL,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.0850024908508731,0.1729946418837288,60.9652235628105
+SCVL,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.07012540348635865,0.12321004526585966,39.03477643718949
+SCVL,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.25783224837310575,0.1527934697972487,39.03477643718949
+SCVL,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.3860089007804606,0.2480665395530339,39.03477643718949
+CATO,small,vol,1,daily return,0,0,daily return,1.579198859007414e-05,0.04435264265104324,22.110660115359966
+CATO,small,vol,1,daily return,1,0,daily return,0.0004671149770620313,0.017754470163951534,77.88933988464002
+CATO,small,vol,2,daily return + rolling volatility,0,0,daily return,-0.0004680066769461468,0.037059606120234685,35.9111301004059
+CATO,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.035052931127824004,0.010046236642188774,35.9111301004059
+CATO,small,vol,2,daily return + rolling volatility,1,0,daily return,0.0008194676174330765,0.018998235501396458,64.0888698995941
+CATO,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.018023807336755893,0.0046117695162351015,64.0888698995941
+CATO,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.01880051818903518,0.019907043465160767,48.77162999359111
+CATO,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.02420192431187931,0.010823311426997185,48.77162999359111
+CATO,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.018832528413034413,0.01987676375248984,48.77162999359111
+CATO,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.01863511780842407,0.01891957318843659,51.22837000640889
+CATO,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.024142662966659265,0.010803218803414841,51.22837000640889
+CATO,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.018643409358431506,0.018911402720591646,51.22837000640889
+CATO,small,bb,1,20-day return,0,0,20-day return,-0.05806338730370577,0.07884972935044622,72.03690560681333
+CATO,small,bb,1,20-day return,1,0,20-day return,0.13396891040015457,0.10718556289903322,27.963094393186655
+CATO,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.028085543698579518,0.10471899330024984,79.347054648687
+CATO,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.09388247325746486,0.11915041027210006,79.347054648687
+CATO,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.10506130246646139,0.13775338003815987,20.652945351312987
+CATO,small,bb,2,20-day return + 60-day return,1,1,60-day return,0.39138437911670687,0.21205094593817658,20.652945351312987
+CATO,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.0281403106768965,0.10771079351708691,70.83037615330021
+CATO,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.10288748531910137,0.11727314549816958,70.83037615330021
+CATO,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.15871505809718198,0.15418847731579235,70.83037615330021
+CATO,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.06627634046106991,0.13690321925583154,29.16962384669979
+CATO,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.2712891000390818,0.2648634677030431,29.16962384669979
+CATO,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.4934015387908943,0.3041980411266012,29.16962384669979
+HCSG,small,vol,1,daily return,0,0,daily return,-0.0004818568493904699,0.04888795656414875,7.541123691518906
+HCSG,small,vol,1,daily return,1,0,daily return,0.0005372047048389277,0.014797831311676005,92.4588763084811
+HCSG,small,vol,2,daily return + rolling volatility,0,0,daily return,-9.609150487584965e-05,0.03294585951098327,29.566331980346078
+HCSG,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.030344784834890184,0.011219902258151218,29.566331980346078
+HCSG,small,vol,2,daily return + rolling volatility,1,0,daily return,0.000629390157103135,0.015203707921174096,70.43366801965392
+HCSG,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.014353947996811766,0.004309261519447325,70.43366801965392
+HCSG,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.01462186999975026,0.017526091566545297,48.34437086092716
+HCSG,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.019342469779796177,0.010178439652334741,48.34437086092716
+HCSG,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.014621870023062478,0.01752609154709611,48.34437086092716
+HCSG,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.014479283196801545,0.015803719305237225,51.65562913907284
+HCSG,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.01902475947371048,0.010291217108127176,51.65562913907284
+HCSG,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.014479283196801545,0.015803719305237225,51.65562913907284
+HCSG,small,bb,1,20-day return,0,0,20-day return,-0.11522461928550806,0.06545427291109068,33.64088005677785
+HCSG,small,bb,1,20-day return,1,0,20-day return,0.04457540769636052,0.06472974634127543,66.35911994322214
+HCSG,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.061410689005346374,0.10371304937072182,42.51242015613911
+HCSG,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.18019164855747177,0.07759188597517584,42.51242015613911
+HCSG,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.02604535543695839,0.07893254860777485,57.48757984386089
+HCSG,small,bb,2,20-day return + 60-day return,1,1,60-day return,0.0630624114470738,0.10120965016814695,57.48757984386089
+HCSG,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.06694832369642406,0.10639745917234229,37.26046841731724
+HCSG,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.19029070626070613,0.07614320089263439,37.26046841731724
+HCSG,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.18504238675423174,0.1214130484464218,37.26046841731724
+HCSG,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.022535983259265365,0.07893990058122391,62.73953158268275
+HCSG,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.050121724399322096,0.10720836291182216,62.73953158268275
+HCSG,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.0005385906860372144,0.18570923422023936,62.73953158268275
+NBTB,small,vol,1,daily return,0,0,daily return,0.0004090267352731516,0.014083675506099208,80.26062807092501
+NBTB,small,vol,1,daily return,1,0,daily return,0.0007370703008323245,0.03696273727757094,19.739371929074984
+NBTB,small,vol,2,daily return + rolling volatility,0,0,daily return,0.00022359670175803298,0.014248491452991988,74.64217047639393
+NBTB,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.01350249721343749,0.0035230409809631283,74.64217047639393
+NBTB,small,vol,2,daily return + rolling volatility,1,0,daily return,0.0012093245704201097,0.03339663210392898,25.357829523606068
+NBTB,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.03123611720030631,0.010852713266468526,25.357829523606068
+NBTB,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.014123908601315101,0.014364103149989366,48.985259559923094
+NBTB,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.018287216985188332,0.010226642451911171,48.985259559923094
+NBTB,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.014169599287039739,0.014319033121218764,48.985259559923094
+NBTB,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.01449838186534168,0.016025819790932146,51.01474044007691
+NBTB,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.01780916623404878,0.009701109995977938,51.01474044007691
+NBTB,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.01450989467441803,0.01601539675506031,51.01474044007691
+NBTB,small,bb,1,20-day return,0,0,20-day return,-0.05456556345131764,0.04485198601601099,45.77714691270405
+NBTB,small,bb,1,20-day return,1,0,20-day return,0.058194739772045374,0.04976069906319932,54.22285308729595
+NBTB,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.019072593136519506,0.07233864399506927,51.8097941802697
+NBTB,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.070621774518406,0.07110669437754255,51.8097941802697
+NBTB,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.03417243482531839,0.06434589377246588,48.1902058197303
+NBTB,small,bb,2,20-day return + 60-day return,1,1,60-day return,0.10582786382995009,0.07577487114358436,48.1902058197303
+NBTB,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,-0.018883743454059777,0.07125324300808171,53.72604684173172
+NBTB,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.06798918672450394,0.07169687681108745,53.72604684173172
+NBTB,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.062160350529692356,0.10455092432735542,53.72604684173172
+NBTB,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.03581178538462301,0.06487091258703977,46.27395315826828
+NBTB,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.10888893815990783,0.07521634922114918,46.27395315826828
+NBTB,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.11352766808226601,0.11651409952874545,46.27395315826828
+MTRN,small,vol,1,daily return,0,0,daily return,0.0005298631857909894,0.01951483309474936,83.14462721640675
+MTRN,small,vol,1,daily return,1,0,daily return,0.002958278912387811,0.05945314964222356,16.85537278359325
+MTRN,small,vol,2,daily return + rolling volatility,0,0,daily return,0.00048307507132934734,0.020332742424586905,70.83956419568467
+MTRN,small,vol,2,daily return + rolling volatility,0,1,rolling volatility,0.019561680588730715,0.00562899936136591,70.83956419568467
+MTRN,small,vol,2,daily return + rolling volatility,1,0,daily return,0.0021950986555100784,0.04819092373265187,29.160435804315316
+MTRN,small,vol,2,daily return + rolling volatility,1,1,rolling volatility,0.04398986123125958,0.015694053255308846,29.160435804315316
+MTRN,small,vol,3,daily return + rolling volatility + absolute return,0,0,daily return,-0.02006279907256292,0.02176840198294751,48.77162999359111
+MTRN,small,vol,3,daily return + rolling volatility + absolute return,0,1,rolling volatility,0.02684159654964787,0.014802200908747246,48.77162999359111
+MTRN,small,vol,3,daily return + rolling volatility + absolute return,0,2,absolute return,0.02006279910031238,0.021768401957372282,48.77162999359111
+MTRN,small,vol,3,daily return + rolling volatility + absolute return,1,0,daily return,0.0210325183752048,0.025219509524573396,51.22837000640889
+MTRN,small,vol,3,daily return + rolling volatility + absolute return,1,1,rolling volatility,0.02674081384735014,0.014829143037780688,51.22837000640889
+MTRN,small,vol,3,daily return + rolling volatility + absolute return,1,2,absolute return,0.0210325183752048,0.025219509524573396,51.22837000640889
+MTRN,small,bb,1,20-day return,0,0,20-day return,-0.03354063091400768,0.057866447122450114,66.6430092264017
+MTRN,small,bb,1,20-day return,1,0,20-day return,0.11236329517464815,0.12788331194338667,33.35699077359829
+MTRN,small,bb,2,20-day return + 60-day return,0,0,20-day return,-0.019800761957590184,0.0692534007596308,47.90631653655075
+MTRN,small,bb,2,20-day return + 60-day return,0,1,60-day return,-0.05671737668061554,0.07651202877779194,47.90631653655075
+MTRN,small,bb,2,20-day return + 60-day return,1,0,20-day return,0.05349569947764915,0.13304304415473311,52.09368346344926
+MTRN,small,bb,2,20-day return + 60-day return,1,1,60-day return,0.1439589070722685,0.18926740264477387,52.09368346344926
+MTRN,small,bb,3,20-day return + 60-day return + 100-day return,0,0,20-day return,0.015723921969385962,0.1310084830087313,54.22285308729595
+MTRN,small,bb,3,20-day return + 60-day return + 100-day return,0,1,60-day return,-0.04223835320206612,0.1281573999095009,54.22285308729595
+MTRN,small,bb,3,20-day return + 60-day return + 100-day return,0,2,100-day return,-0.04596621927767017,0.12094218082282278,54.22285308729595
+MTRN,small,bb,3,20-day return + 60-day return + 100-day return,1,0,20-day return,0.021410330398095593,0.08772788984328914,45.77714691270405
+MTRN,small,bb,3,20-day return + 60-day return + 100-day return,1,1,60-day return,0.15462886463457878,0.1684128860648248,45.77714691270405
+MTRN,small,bb,3,20-day return + 60-day return + 100-day return,1,2,100-day return,0.21451067307043958,0.16761931576129424,45.77714691270405
